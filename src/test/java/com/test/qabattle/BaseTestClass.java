@@ -37,8 +37,8 @@ public class BaseTestClass {
 
     @Test
     public void test() {
-        //open("http://127.0.0.1:8080/");
-        open("http://212.237.55.99:8081/");
+        open("http://127.0.0.1:8080/");
+        //open("http://212.237.55.99:8081/");
         takeScreenshot();
     }
 
