@@ -1,0 +1,1 @@
+Autotest project in Java for qabattle web app
