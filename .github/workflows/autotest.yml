@@ -1,0 +1,79 @@
+name: Autotests on Selenoid
+
+on:
+  push:
+    branches-ignore:
+      - '!master' # Push events to branches matching allure-report
+    #paths-ignore:
+    #- 'docs/**'
+
+jobs:
+  autotests:
+    name: Run autotests on selenoid
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start web app
+        run: docker run -d -p 8080:8080 qapropeller/qa-battle:latest
+      - name: Start selenoid
+        #uses: Xotabu4/selenoid-github-action@v1
+        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start
+
+      - uses: actions/checkout@v1
+
+      - uses: actions/cache@v1
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      #- name: Install dependencies
+      #  run: mvn -f testng/pom.xml dependency:go-offline compile compiler:testCompile
+
+      - name: Run Test
+        run: mvn -f pom.xml test
+        continue-on-error: true
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Keep Allure history
+        run: cp -r $(pwd)/gh-pages/history/. $(pwd)/target/allure-results/history
+
+      - name: Generate Allure report
+        run: mvn -f pom.xml allure:report
+        continue-on-error: true
+
+      #- uses: actions/upload-artifact@master
+      #  with:
+      #    name: allure-report
+      #    path: testng/target/site/allure-maven-plugin
+
+      #- name: Deploy report to Github Pages
+      #  uses: JamesIves/github-pages-deploy-action@3.1.2
+      #  #if: always()
+      #  with:
+      #    ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #    #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #    #GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #    BRANCH: gh-pages # The branch the action should deploy to.
+      #    FOLDER: testng/target/site/allure-maven-plugin # The folder the action should deploy.
+      #    #TARGET_FOLDER: docs
+      #    CLEAN: true
+
+      - name: Deploy report to Github Pages
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          # ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: target/site/allure-maven-plugin
