@@ -40,6 +40,7 @@ public class BaseTestClass {
         open("http://127.0.0.1:8080/");
         //open("http://212.237.55.99:8081/");
         takeScreenshot();
+        System.out.println("tests!!!");
     }
 
 

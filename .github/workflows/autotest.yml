@@ -22,7 +22,6 @@ jobs:
       - uses: actions/checkout@v1
 
       - uses: actions/cache@v1
-        if: always()
         with:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
@@ -30,13 +29,12 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Set up JDK
-        if: always()
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
 
       - name: Install dependencies
-        if: always()
+        #if: always()
         run: mvn dependency:go-offline compile compiler:testCompile
 
       - name: Run Test
@@ -52,16 +50,17 @@ jobs:
 
       - name: Keep Allure history
         run: cp -r $(pwd)/gh-pages/history/. $(pwd)/target/allure-results/history
+        continue-on-error: true
 
       - name: Generate Allure report
         if: always()
         run: mvn allure:report
         continue-on-error: true
 
-      #- uses: actions/upload-artifact@master
-      #  with:
-      #    name: allure-report
-      #    path: testng/target/site/allure-maven-plugin
+      - uses: actions/upload-artifact@master
+        with:
+          name: allure-report
+          path: target/site/allure-maven-plugin
 
       #- name: Deploy report to Github Pages
       #  uses: JamesIves/github-pages-deploy-action@3.1.2
@@ -71,7 +70,7 @@ jobs:
       #    #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       #    #GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       #    BRANCH: gh-pages # The branch the action should deploy to.
-      #    FOLDER: testng/target/site/allure-maven-plugin # The folder the action should deploy.
+      #    FOLDER: target/site/allure-maven-plugin # The folder the action should deploy.
       #    #TARGET_FOLDER: docs
       #    CLEAN: true
 
