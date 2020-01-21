@@ -11,10 +11,10 @@ public class FirstTest extends BaseTestClass {
 
     @Test
     public void test() {
-        open("http://localhost:8081/");
+        open("http://localhost:8080/");
         //open("http://212.237.55.99:8081/");
 
-        $("#registrationContainer").waitUntil(appear, 5000);
+        $("#registrationContainer").waitUntil(appear, 1000);
         $(".card-header").shouldBe(visible).shouldHave(exactText("Welcome to Propeller Championship!"));
 
         takeScreenshot();
@@ -22,10 +22,10 @@ public class FirstTest extends BaseTestClass {
 
     @Test
     public void test2() {
-        open("http://localhost:8081/");
+        open("http://localhost:8080/");
         //open("http://212.237.55.99:8081/");
 
-        $("#registrationContainer").waitUntil(appear, 5000);
+        $("#registrationContainer").waitUntil(appear, 1000);
         $(".card-header").shouldBe(visible).shouldHave(exactText("Welcome to Propeller Championship!"));
 
         takeScreenshot();
