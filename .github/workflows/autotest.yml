@@ -10,9 +10,6 @@ on:
 jobs:
   autotests:
     name: Run autotests on selenoid
-    env:
-      SERVICES: ${{ job.services.network }}
-      CONTAINERS: ${{ job.container.network }}
     runs-on: ubuntu-latest
     services:
       qabattle:
@@ -20,16 +17,19 @@ jobs:
         ports:
           - 8080:8080
         options: --name qabattle
+    env:
+      network_1: ${{ job.services.network }}
+      network_2: ${{ job.container.network }}
     steps:
       #- name: Start web app
       #  run: docker run -d -p 8081:8080 --name qa qapropeller/qa-battle:latest
 
       - name: Network
-        run: echo $SERVICES $CONTAINERS
+        run: echo $network_1 $network_2
 
       - name: Start selenoid
         #uses: Xotabu4/selenoid-github-action@v1
-        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start --args "-container-network $SERVICES"
+        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start --args "-container-network $network_1"
 
       - name: Curl
         run: curl http://localhost:8080/
