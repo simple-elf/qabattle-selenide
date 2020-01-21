@@ -23,11 +23,15 @@ jobs:
 
       #- run: echo ${{ job.container.network }}
 
-      - name: Start selenoid
-        #uses: Xotabu4/selenoid-github-action@v1
-        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start --args "--network ${{ job.container.network }} -container-network ${{ job.container.network }}"
+      - name: Rum CM
+        run: curl -s https://aerokube.com/cm/bash | bash
 
-      - run: curl http://localhost:4444/status
+      - name: Start Selenoid
+        #uses: Xotabu4/selenoid-github-action@v1
+        run: ./cm selenoid start --browsers chrome --last-versions 1 --args "--network ${{ job.container.network }} -container-network ${{ job.container.network }}"
+
+      - run: curl http://127.0.0.1:4444/status
+        continue-on-error: true
 
       - name: Curl webaapp
         run: curl http://localhost:8080/
