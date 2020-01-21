@@ -17,6 +17,8 @@ jobs:
       - name: Docker compose
         run: docker-compose up -d
 
+      - run: docker ps -a
+
       #- run: cat config/browsers.json
 
       - name: Curl webaapp
@@ -33,3 +35,4 @@ jobs:
         run: |
           docker logs qabattle
           docker logs selenoid
+          docker logs cm

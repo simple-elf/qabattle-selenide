@@ -9,11 +9,12 @@ services:
 
   selenoid-cm:
     image: aerokube/cm:latest-release
+    container_name: cm
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
-      #- ./config:~/.aerokube/selenoid/:ro
-    #environment:
-    #  OVERRIDE_HOME: "$PWD/config/"
+      - "$PWD/config:/root/.aerokube/selenoid"
+    environment:
+      OVERRIDE_HOME: "$PWD/config/"
     command: ["selenoid", "configure", "--tmpfs", "128", "--browsers", "chrome", "--last-versions", "1"]
 
   selenoid:
@@ -22,12 +23,12 @@ services:
     container_name: selenoid
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
-      #- "$PWD/config:/etc/selenoid/"
-      #- "$PWD/opt:/opt/selenoid/video"
-      #- "$PWD/opt:/opt/selenoid/logs"
-    #environment:
-    #  - OVERRIDE_VIDEO_OUTPUT_DIR="$PWD/opt"
-    #command: ["-conf", "config/browsers.json"]
+      - "$PWD/config:/etc/selenoid/"
+      - "$PWD/opt:/opt/selenoid/video"
+      - "$PWD/opt:/opt/selenoid/logs"
+    environment:
+      - OVERRIDE_VIDEO_OUTPUT_DIR="$PWD/opt"
+    command: ["-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs"]
     ports:
       - "4444:4444"
     links:
