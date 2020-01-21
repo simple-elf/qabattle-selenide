@@ -28,7 +28,7 @@ jobs:
 
       - name: Start Selenoid
         #uses: Xotabu4/selenoid-github-action@v1
-        run: ./cm selenoid start --browsers chrome --last-versions 1 #--args "--network ${{ job.container.network }} -container-network ${{ job.container.network }}"
+        run: ./cm selenoid start --browsers chrome --last-versions 1 --args "--network ${{ job.container.network }}" # -container-network ${{ job.container.network }}"
 
       - run: curl http://127.0.0.1:4444/status
         continue-on-error: true
@@ -59,7 +59,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn test -Dbase.url=http://localhost:8080
+        run: mvn test -Dbase.url=http://qabattle:8080
         continue-on-error: true
 
       - name: Check containers
