@@ -29,7 +29,7 @@ jobs:
         run: ./cm selenoid configure --browsers chrome --last-versions 1
 
       - name: Start Selenoid
-        run: docker run -d --name selenoid -p 4444:4444 --network ${{ job.container.network }} -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release -conf .aerokube/selenoid/browsers.json -capture-driver-logs -container-network ${{ job.container.network }}
+        run: docker run -d --name selenoid -p 4444:4444 --network ${{ job.container.network }} -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release -conf ./.aerokube/selenoid/browsers.json -capture-driver-logs -container-network ${{ job.container.network }}
 
       - run: curl http://127.0.0.1:4444/status
         continue-on-error: true
