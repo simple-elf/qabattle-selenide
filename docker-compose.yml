@@ -10,19 +10,19 @@ services:
   selenoid-cm:
     image: aerokube/cm:latest-release
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - ./config:~/.aerokube/selenoid
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      #- ./config:~/.aerokube/selenoid/:ro
     #environment:
     #  OVERRIDE_HOME: "$PWD/config/"
     command: ["selenoid", "configure", "--tmpfs", "128", "--browsers", "chrome", "--last-versions", "1"]
 
   selenoid:
-    image: "aerokube/selenoid"
+    image: aerokube/selenoid:latest-release
     network_mode: bridge
     container_name: selenoid
     volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
       #- "$PWD/config:/etc/selenoid/"
-      - /var/run/docker.sock:/var/run/docker.sock
       #- "$PWD/opt:/opt/selenoid/video"
       #- "$PWD/opt:/opt/selenoid/logs"
     #environment:

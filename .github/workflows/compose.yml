@@ -17,6 +17,8 @@ jobs:
       - name: Docker compose
         run: docker-compose up -d
 
+      #- run: cat config/browsers.json
+
       - name: Curl webaapp
         run: curl http://localhost:8080/
         continue-on-error: true
