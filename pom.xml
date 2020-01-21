@@ -11,7 +11,7 @@
     <properties>
         <video.enabled>true</video.enabled>
         <selenoid.url>http://127.0.0.1:4444/wd/hub</selenoid.url>
-        <base.url>http://212.237.55.99:8081/</base.url>
+        <base.url>http://212.237.55.99:8081</base.url>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
