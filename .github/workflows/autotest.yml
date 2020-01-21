@@ -20,11 +20,14 @@ jobs:
       - name: Start web app
         run: docker run -d -p 8081:8080 --name qa qapropeller/qa-battle:latest
 
-      - run: |
+      - name: Local IP
+        continue-on-error: true
+        run: |
           export MY_CONTAINER_ID=$(docker ps --filter name=qa --format {{.ID}})
           export LOCAL_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${MY_CONTAINER_ID})
           echo LOCAL_IP=${LOCAL_IP}
           curl http://${LOCAL_IP}:8081/
+          curl http://${LOCAL_IP}:8080/
 
       - name: Start selenoid
         #uses: Xotabu4/selenoid-github-action@v1
@@ -35,6 +38,7 @@ jobs:
         continue-on-error: true
 
       - run: echo ${LOCAL_IP}
+        continue-on-error: true
 
       - uses: actions/checkout@v1
 
