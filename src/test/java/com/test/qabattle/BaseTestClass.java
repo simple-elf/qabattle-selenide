@@ -1,5 +1,6 @@
 package com.test.qabattle;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -31,6 +32,8 @@ public class BaseTestClass {
 
         Configuration.reportsFolder = "target/reports";
         Configuration.screenshots = false;
+
+        Configuration.baseUrl = System.getProperty("base.url");
 
         SelenideLogger.addListener("Allure Selenide", new AllureSelenide());
     }

@@ -24,6 +24,7 @@ jobs:
           export MY_CONTAINER_ID=$(docker ps --filter name=qa --format {{.ID}})
           export LOCAL_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${MY_CONTAINER_ID})
           echo LOCAL_IP=${LOCAL_IP}
+          curl http://${LOCAL_IP}:8081/
 
       - name: Start selenoid
         #uses: Xotabu4/selenoid-github-action@v1
@@ -33,9 +34,7 @@ jobs:
         run: curl http://localhost:8081/
         continue-on-error: true
 
-      - name: Curl
-        run: curl http://${LOCAL_IP}:8081/
-        continue-on-error: true
+      - run: echo ${LOCAL_IP}
 
       - uses: actions/checkout@v1
 
@@ -56,7 +55,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn test
+        run: mvn test -Dbase.url=http://${LOCAL_IP}:8081/
         continue-on-error: true
 
       - name: Get Allure history
