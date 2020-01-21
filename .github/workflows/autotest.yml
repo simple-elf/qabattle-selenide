@@ -17,14 +17,14 @@ jobs:
         ports:
           - 8080:8080
         options: --name qabattle
-    env:
-      network_1: ${{ job.services.network }}
-      network_2: ${{ job.container.network }}
     steps:
       #- name: Start web app
       #  run: docker run -d -p 8081:8080 --name qa qapropeller/qa-battle:latest
 
       - name: Network
+        env:
+          network_1: ${{ job.services.network }}
+          network_2: ${{ job.container.network }}
         run: echo $network_1 $network_2
 
       - name: Start selenoid
