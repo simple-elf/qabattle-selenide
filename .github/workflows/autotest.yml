@@ -31,7 +31,7 @@ jobs:
 
       - name: Start selenoid
         #uses: Xotabu4/selenoid-github-action@v1
-        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start
+        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start --args "-container-network ${{ job.services.network }}"
 
       - name: Curl
         run: curl http://localhost:8080/
@@ -59,7 +59,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn test -Dbase.url=http://qabattle:8080
+        run: mvn test -Dbase.url=http://localhost:8080
         continue-on-error: true
 
       - name: Get Allure history

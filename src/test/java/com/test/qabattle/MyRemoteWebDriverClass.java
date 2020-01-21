@@ -25,8 +25,8 @@ public class MyRemoteWebDriverClass implements WebDriverProvider {
         //capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("timeZone", "Europe/Moscow");
 
-        String[] app = {"qabattle:qabattle"};
-        capabilities.setCapability("applicationContainers", app);
+        //String[] app = {"qabattle:qabattle"};
+        //capabilities.setCapability("applicationContainers", app);
 
         //System.out.println("video.enabled: " + System.getProperty("video.enabled"));
         if ("true".equals(System.getProperty("video.enabled"))) {
