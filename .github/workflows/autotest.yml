@@ -29,11 +29,15 @@ jobs:
       #    echo LOCAL_IP=${LOCAL_IP}
       #    echo ::set-env name=LOCAL_IP::${LOCAL_IP}
 
-      - run: echo ${{ job.services.network }}
+      - run: echo $NETWORK
+        env:
+          NETWORK: ${{ job.services.network }}
 
       - name: Start selenoid
         #uses: Xotabu4/selenoid-github-action@v1
-        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start --args "-container-network ${{ job.services.network }}"
+        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start --args "-container-network $NETWORK"
+        env:
+          NETWORK: ${{ job.services.network }}
 
       - name: Curl
         run: curl http://localhost:8080/
