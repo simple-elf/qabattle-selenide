@@ -13,13 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Start web app
-        run: docker run -d -p 127.0.0.1:8081:8080 --name qa qapropeller/qa-battle:latest
+        run: docker run -d -p 8081:8080 --name qa qapropeller/qa-battle:latest
 
       - name: Start selenoid
         #uses: Xotabu4/selenoid-github-action@v1
         run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start
 
-      #- run: curl http://127.0.0.1:8080/
+      - name: Curl
+        run: curl http://localhost:8081/
+        continue-on-error: true
+
       - run: docker logs qa
       - run: docker ps -a
 

@@ -14,7 +14,7 @@ public class FirstTest extends BaseTestClass {
         open("http://host.docker.internal:8081/");
         //open("http://212.237.55.99:8081/");
 
-        $("#registrationContainer").waitUntil(appear, 35000);
+        $("#registrationContainer").waitUntil(appear, 5000);
         $(".card-header").shouldBe(visible).shouldHave(exactText("Welcome to Propeller Championship!"));
 
         takeScreenshot();
@@ -25,7 +25,7 @@ public class FirstTest extends BaseTestClass {
         open("http://host.docker.internal:8081/");
         //open("http://212.237.55.99:8081/");
 
-        $("#registrationContainer").waitUntil(appear, 15000);
+        $("#registrationContainer").waitUntil(appear, 5000);
         $(".card-header").shouldBe(visible).shouldHave(exactText("Welcome to Propeller Championship!"));
 
         takeScreenshot();
