@@ -15,7 +15,7 @@ jobs:
       qabattle:
         image: qapropeller/qa-battle:latest
         ports:
-          - 8081:8080
+          - 8080:8080
         options: --name qabattle
     steps:
       #- name: Start web app
@@ -34,7 +34,7 @@ jobs:
         run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start
 
       - name: Curl
-        run: curl http://localhost:8081/
+        run: curl http://localhost:8080/
         continue-on-error: true
 
       #- run: echo ${LOCAL_IP}
@@ -59,7 +59,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn test -Dbase.url=http://localhost:8081
+        run: mvn test -Dbase.url=http://qabattle:8080
         continue-on-error: true
 
       - name: Get Allure history

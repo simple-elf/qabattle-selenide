@@ -9,6 +9,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 import static io.qameta.allure.Allure.step;
 
@@ -22,6 +24,9 @@ public class MyRemoteWebDriverClass implements WebDriverProvider {
         capabilities.setCapability("screenResolution", "1920x1080x24");
         //capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("timeZone", "Europe/Moscow");
+
+        String[] app = {"qabattle:qabattle"};
+        capabilities.setCapability("applicationContainers", app);
 
         //System.out.println("video.enabled: " + System.getProperty("video.enabled"));
         if ("true".equals(System.getProperty("video.enabled"))) {
