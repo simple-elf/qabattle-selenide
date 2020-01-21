@@ -11,7 +11,7 @@ public class FirstTest extends BaseTestClass {
 
     @Test
     public void test() {
-        open("http://host.docker.internal:8081/");
+        open("http://localhost:8081/");
         //open("http://212.237.55.99:8081/");
 
         $("#registrationContainer").waitUntil(appear, 5000);
@@ -22,7 +22,7 @@ public class FirstTest extends BaseTestClass {
 
     @Test
     public void test2() {
-        open("http://host.docker.internal:8081/");
+        open("http://localhost:8081/");
         //open("http://212.237.55.99:8081/");
 
         $("#registrationContainer").waitUntil(appear, 5000);
