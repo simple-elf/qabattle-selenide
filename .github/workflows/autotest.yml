@@ -21,14 +21,15 @@ jobs:
       #- name: Start web app
       #  run: docker run -d -p 8081:8080 --name qa qapropeller/qa-battle:latest
 
-      #- run: echo ${{ job.container.network }}
-
-      - name: Run CM
+      - name: Download CM
         run: curl -s https://aerokube.com/cm/bash | bash
 
-      - name: Start Selenoid
+      - name: Configure Selenoid
         #uses: Xotabu4/selenoid-github-action@v1
-        run: ./cm selenoid start --browsers chrome --last-versions 1 --args "-capture-driver-logs -container-network ${{ job.container.network }}"
+        run: ./cm selenoid configure --browsers chrome --last-versions 1
+
+      - name: Start Selenoid
+        run: docker run -d --name selenoid -p 4444:4444 --network ${{ job.container.network }} -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release -conf .aerokube/selenoid/browsers.json -capture-driver-logs -container-network ${{ job.container.network }}
 
       - run: curl http://127.0.0.1:4444/status
         continue-on-error: true
