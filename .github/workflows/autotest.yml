@@ -27,6 +27,7 @@ jobs:
       # aerokube/selenoid:latest-release   -container-network ${{ job.container.network }}
 
       - run: docker ps -a
+      - run: docker network ls
 
       - run: curl http://127.0.0.1:4444/status
         continue-on-error: true
