@@ -17,11 +17,14 @@ jobs:
       - name: Download CM
         run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid configure --browsers chrome --last-versions 1 --config-dir config
 
-      #- run: cp -v /home/runner/.aerokube/selenoid/browsers.json browsers.json
       - run: cat config/browsers.json
 
       - name: Docker compose
         run: docker-compose up -d
+
+      #run: docker run -d --name selenoid -p 4444:4444 --network ${{ job.container.network }}
+      # -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`/config/:/etc/selenoid/:ro
+      # aerokube/selenoid:latest-release   -container-network ${{ job.container.network }}
 
       - run: docker ps -a
 
@@ -58,6 +61,8 @@ jobs:
         run: |
           docker logs qabattle
           docker logs selenoid
+
+      - run: ls -a /opt/
 
       - name: Get Allure history
         uses: actions/checkout@v2
