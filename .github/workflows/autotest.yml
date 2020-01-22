@@ -11,29 +11,19 @@ jobs:
   autotests:
     name: Run autotests on selenoid
     runs-on: ubuntu-latest
-    services:
-      qabattle:
-        image: qapropeller/qa-battle:latest
-        ports:
-          - 8080:8080
-        options: --name qabattle
     steps:
-      #- name: Start web app
-      #  run: docker run -d -p 8081:8080 --name qa qapropeller/qa-battle:latest
+      - uses: actions/checkout@v1
 
       - name: Download CM
-        run: curl -s https://aerokube.com/cm/bash | bash
+        run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid configure --browsers chrome --last-versions 1
 
-      - name: Configure Selenoid
-        #uses: Xotabu4/selenoid-github-action@v1
-        run: ./cm selenoid configure --browsers chrome --last-versions 1
+      - run: cp -v /home/runner/.aerokube/selenoid/browsers.json browsers.json
+      - run: cat browsers.json
 
-      - run: cat /home/runner/.aerokube/selenoid/browsers.json
-      - run: mkdir -p config && cp -v /home/runner/.aerokube/selenoid/browsers.json config/browsers.json
-      - run: cat config/browsers.json
+      - name: Docker compose
+        run: docker-compose up -d
 
-      - name: Start Selenoid
-        run: docker run -d --name selenoid -p 4444:4444 --network ${{ job.container.network }} -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`/config/:/etc/selenoid/:ro aerokube/selenoid:latest-release -capture-driver-logs -container-network ${{ job.container.network }} #-conf /home/runner/.aerokube/selenoid/browsers.json
+      - run: docker ps -a
 
       - run: curl http://127.0.0.1:4444/status
         continue-on-error: true
@@ -41,11 +31,6 @@ jobs:
       - name: Curl webaapp
         run: curl http://localhost:8080/
         continue-on-error: true
-
-      #- run: echo ${LOCAL_IP}
-      #  continue-on-error: true
-
-      - uses: actions/checkout@v1
 
       - uses: actions/cache@v1
         with:
