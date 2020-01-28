@@ -1,6 +1,7 @@
-package com.test.qabattle;
+package com.test.qabattle.lib;
 
 import com.codeborne.selenide.WebDriverProvider;
+import com.test.qabattle.lib.MyChromeBrowserClass;
 import io.qameta.allure.model.Status;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,8 +10,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
 
 import static io.qameta.allure.Allure.step;
 
@@ -41,7 +40,6 @@ public class MyRemoteWebDriverClass implements WebDriverProvider {
             e.printStackTrace();
             step("RemoteDriver error: " + e.getMessage(), Status.FAILED);
             throw e;
-            //return null;
         }
     }
 

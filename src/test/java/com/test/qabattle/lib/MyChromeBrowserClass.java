@@ -1,4 +1,4 @@
-package com.test.qabattle;
+package com.test.qabattle.lib;
 
 import com.codeborne.selenide.WebDriverProvider;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -29,12 +29,13 @@ public class MyChromeBrowserClass implements WebDriverProvider {
             e.printStackTrace();
             step("ChromeDriver error: " + e.getMessage(), Status.FAILED);
             throw e;
-            //return null;
         }
     }
 
     public static ChromeOptions getChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
+
+        //chromeOptions.addArguments("--headless");
 
         chromeOptions.addArguments("disable-infobars");
         chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
