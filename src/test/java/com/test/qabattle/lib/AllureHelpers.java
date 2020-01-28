@@ -1,4 +1,4 @@
-package com.test.qabattle;
+package com.test.qabattle.lib;
 
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.WebDriverRunner;
