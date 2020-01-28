@@ -21,7 +21,7 @@ services:
     container_name: selenoid
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
-      - "$PWD/config/:/etc/selenoid/"
+      - "$PWD/config/:/etc/selenoid/" # "-conf", "/etc/selenoid/browsers.json"
       - "$PWD/opt:/opt/selenoid/video"
       - "$PWD/opt:/opt/selenoid/logs"
     environment:
