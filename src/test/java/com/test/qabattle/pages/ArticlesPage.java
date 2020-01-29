@@ -15,6 +15,9 @@ public class ArticlesPage {
     public static SelenideElement articlesBody = $(".card-body");
 
     public static ElementsCollection mainButtons = articlesBody.$$("button.tree-main-button");
+    public static SelenideElement advertisers = mainButtons.findBy(exactText("Advertisers"));
+    public static SelenideElement publishers = mainButtons.findBy(exactText("Publishers"));
+    public static SelenideElement topLevelClients = mainButtons.findBy(exactText("Top level clients"));
 
 
     public static ElementsCollection treeButtons(SelenideElement mainButton){
