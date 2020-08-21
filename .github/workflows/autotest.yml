@@ -56,22 +56,34 @@ jobs:
           docker logs qabattle
           docker logs selenoid
 
-      - run: ls -a opt/
+      #- run: ls -a opt/
 
       - name: Get Allure history
         uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Keep Allure history
-        run: cp -r $(pwd)/gh-pages/history/. $(pwd)/target/allure-results/history
-        continue-on-error: true
+#      - name: Keep Allure history
+#        run: cp -r $(pwd)/gh-pages/history/. $(pwd)/target/allure-results/history
+#        continue-on-error: true
+#
+#      - name: Generate Allure report
+#        if: always()
+#        run: mvn allure:report
+#        continue-on-error: true
 
-      - name: Generate Allure report
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@v1.1
         if: always()
-        run: mvn allure:report
-        continue-on-error: true
+        #id: allure-report
+        with:
+          allure_results: target/allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
 
       #- uses: actions/upload-artifact@master
       #  with:
@@ -84,4 +96,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: target/site/allure-maven-plugin
+          PUBLISH_DIR: allure-history #target/site/allure-maven-plugin
