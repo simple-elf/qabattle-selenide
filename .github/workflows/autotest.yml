@@ -46,7 +46,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn test -Dbase.url=http://qabattle:8080
+        run: mvn test -Dbase.url=http://qabattle:8080 -Dvideo.enabled=true
         continue-on-error: true
 
       - name: Check containers
