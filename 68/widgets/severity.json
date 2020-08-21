@@ -1,0 +1,121 @@
+[ {
+  "uid" : "c27e36a0ff0ec1a3",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1598014464249,
+    "stop" : 1598014464924,
+    "duration" : 675
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "51e2d498136f3f7a",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1598014464241,
+    "stop" : 1598014464241,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a78cdef84b2017a3",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1598014464211,
+    "stop" : 1598014464213,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a1342f659a4c844",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1598014464975,
+    "stop" : 1598014464975,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f4a108a980e4cbcc",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1598014464244,
+    "stop" : 1598014464245,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "40925e8ae6646a8c",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1598014464235,
+    "stop" : 1598014464236,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6d048ddef43b5593",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1598014464988,
+    "stop" : 1598014464988,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "61b0a2d22721099",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1598014464986,
+    "stop" : 1598014464986,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5b1580d3ce24a0ef",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1598014464990,
+    "stop" : 1598014464990,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f1dae9abdef54722",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1598014464951,
+    "stop" : 1598014464951,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2bf6aefa7f18a927",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1598014464957,
+    "stop" : 1598014464957,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a55921d21d66d650",
+  "name" : "afterMethod",
+  "time" : {
+    "start" : 1598014464939,
+    "stop" : 1598014464939,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,154 @@
+{
+  "uid" : "f1dae9abdef54722",
+  "name" : "Авторизация с отменой первого алерта",
+  "fullName" : "com.test.qabattle.tests.LoginTest.dismissFirstAlertLoginTest",
+  "historyId" : "b97ee65532cea67becac389604931916",
+  "time" : {
+    "start" : 1598014464951,
+    "stop" : 1598014464951,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+  "statusTrace" : "java.lang.IllegalStateException: No webdriver is bound to current thread: 1. You need to call open(url) first.\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getWebDriver(WebDriverThreadLocalContainer.java:104)\n\tat com.codeborne.selenide.WebDriverRunner.getWebDriver(WebDriverRunner.java:73)\n\tat com.test.qabattle.lib.BaseTestClass.getSessionId(BaseTestClass.java:67)\n\tat com.test.qabattle.lib.BaseTestClass.afterMethod(BaseTestClass.java:50)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:646)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1598014464246,
+      "stop" : 1598014464247,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "dismissFirstAlertLoginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az60"
+  }, {
+    "name" : "thread",
+    "value" : "4948@fv-az60.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Форма авторизации"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "fe9c02d1656bb0a3",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/67//#testresult/fe9c02d1656bb0a3",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014218747,
+          "stop" : 1598014218747,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ccfbe78e67da3d3a",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/66//#testresult/ccfbe78e67da3d3a",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598011482440,
+          "stop" : 1598011482440,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a5adf6c16e32a51",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/65//#testresult/a5adf6c16e32a51",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598010018306,
+          "stop" : 1598010018306,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "86675b17e384e17a",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/64//#testresult/86675b17e384e17a",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598009268212,
+          "stop" : 1598009268212,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "55407dc2fc0676bc",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/63//#testresult/55407dc2fc0676bc",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598007141628,
+          "stop" : 1598007141628,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "29cf12fe8a3463e7",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/29cf12fe8a3463e7",
+        "status" : "failed",
+        "statusDetails" : "Element not found {img[src='sign.png']}\nExpected: visible\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[src='sign.png']\"}",
+        "time" : {
+          "start" : 1597989635742,
+          "stop" : 1597989649719,
+          "duration" : 13977
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f1dae9abdef54722.json",
+  "parameterValues" : [ ]
+}
