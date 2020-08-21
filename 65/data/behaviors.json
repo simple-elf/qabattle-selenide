@@ -1,0 +1,169 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Главная страница",
+    "children" : [ {
+      "name" : "beforeTest",
+      "uid" : "ed9377f57a43c5e9",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1598010017592,
+        "stop" : 1598010017593,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка скачивания описания статьи",
+      "uid" : "b6cc175b3b728293",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010017604,
+        "stop" : 1598010017605,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация вложенных статей",
+      "uid" : "c5067eae52f9e94b",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010017625,
+        "stop" : 1598010017625,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация главной страницы",
+      "uid" : "5e37bfdc9555983d",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010017628,
+        "stop" : 1598010017629,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0a3ae5f257f84b35d1433009096f560f"
+  }, {
+    "name" : "Форма авторизации",
+    "children" : [ {
+      "name" : "Ввод и очистка полей логина и пароля",
+      "uid" : "3fe8a029158ae012",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1598010017633,
+        "stop" : 1598010018294,
+        "duration" : 661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "afterMethod",
+      "uid" : "6fdc3bc3a17bb0",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1598010018299,
+        "stop" : 1598010018299,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с отменой первого алерта",
+      "uid" : "a5adf6c16e32a51",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010018306,
+        "stop" : 1598010018306,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с отменой второго алерта",
+      "uid" : "4059537be301760e",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010018312,
+        "stop" : 1598010018312,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с некорректными данными",
+      "uid" : "26f26e53caa47bcb",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010018316,
+        "stop" : 1598010018316,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация через Cookie",
+      "uid" : "e5e87c46d0d85026",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010018324,
+        "stop" : 1598010018325,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация формы авторизации",
+      "uid" : "57c73ec43a9d1b41",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010018336,
+        "stop" : 1598010018336,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная авторизация",
+      "uid" : "ac76ea311d208af7",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598010018348,
+        "stop" : 1598010018348,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8b29a0e65abd2354568893b06c2815d0"
+  } ],
+  "name" : "behaviors"
+}

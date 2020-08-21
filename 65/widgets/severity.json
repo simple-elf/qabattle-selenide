@@ -1,0 +1,121 @@
+[ {
+  "uid" : "5e37bfdc9555983d",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1598010017628,
+    "stop" : 1598010017629,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ac76ea311d208af7",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1598010018348,
+    "stop" : 1598010018348,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e5e87c46d0d85026",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1598010018324,
+    "stop" : 1598010018325,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3fe8a029158ae012",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1598010017633,
+    "stop" : 1598010018294,
+    "duration" : 661
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4059537be301760e",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1598010018312,
+    "stop" : 1598010018312,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6fdc3bc3a17bb0",
+  "name" : "afterMethod",
+  "time" : {
+    "start" : 1598010018299,
+    "stop" : 1598010018299,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c5067eae52f9e94b",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1598010017625,
+    "stop" : 1598010017625,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b6cc175b3b728293",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1598010017604,
+    "stop" : 1598010017605,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a5adf6c16e32a51",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1598010018306,
+    "stop" : 1598010018306,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "26f26e53caa47bcb",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1598010018316,
+    "stop" : 1598010018316,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ed9377f57a43c5e9",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1598010017592,
+    "stop" : 1598010017593,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "57c73ec43a9d1b41",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1598010018336,
+    "stop" : 1598010018336,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
