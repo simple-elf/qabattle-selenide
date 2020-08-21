@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.50 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+      "children" : [ {
+        "name" : "beforeTest",
+        "uid" : "1af30b93b5aaa4f",
+        "parentUid" : "2fdf7e662bab89f5a2c3bbd0b42944a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598014218077,
+          "stop" : 1598014218080,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fdf7e662bab89f5a2c3bbd0b42944a9"
+    }, {
+      "name" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 594 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+      "children" : [ {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "d528c93df82986e5",
+        "parentUid" : "00ca1676470fe9ad09a93af1a19d3117",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598014218123,
+          "stop" : 1598014218733,
+          "duration" : 610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00ca1676470fe9ad09a93af1a19d3117"
+    }, {
+      "name" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+      "children" : [ {
+        "name" : "afterMethod",
+        "uid" : "67004265a4bf8915",
+        "parentUid" : "fb591d850b490b03d83413a9291646b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598014218742,
+          "stop" : 1598014218743,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb591d850b490b03d83413a9291646b3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
