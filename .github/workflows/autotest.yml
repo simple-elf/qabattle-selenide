@@ -18,7 +18,7 @@ jobs:
         run: curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid configure --browsers chrome --last-versions 1 --config-dir config
       #- run: cat config/browsers.json
 
-      - run: mkdir -p opt/
+      - run: mkdir -p config/opt/
       - name: Docker compose
         run: docker-compose up -d
       #- run: docker ps -a
@@ -57,7 +57,7 @@ jobs:
           docker logs qabattle
           docker logs selenoid
 
-      - run: ls -a opt/
+      - run: ls -a config/opt/
 
       - name: Get Allure history
         uses: actions/checkout@v2
