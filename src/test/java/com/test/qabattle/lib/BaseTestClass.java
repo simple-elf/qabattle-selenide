@@ -4,14 +4,19 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import io.qameta.allure.selenide.LogType;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 
 import java.util.logging.Level;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static com.test.qabattle.lib.AllureHelpers.takeScreenshot;
+import static com.test.qabattle.lib.SelenoidVideo.attachAllureVideo;
 
+//@Listeners(MyBrowserPerTest.class)
 public class BaseTestClass {
 
     @BeforeClass
@@ -24,6 +29,7 @@ public class BaseTestClass {
             System.out.println("RemoteWebDriver");
         } else {
             Configuration.browser = MyChromeBrowserClass.class.getName();
+            //Configuration.browser = MyFirefoxWebDriver.class.getName();
             Configuration.startMaximized = true;
             System.out.println("LocalWebDriver");
         }
@@ -34,20 +40,31 @@ public class BaseTestClass {
 
         Configuration.baseUrl = System.getProperty("base.url");
 
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide().enableLogs(LogType.BROWSER, Level.ALL));
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
+                .enableLogs(LogType.BROWSER, Level.ALL)
+                .enableLogs(LogType.PERFORMANCE, Level.ALL));
     }
 
     @AfterMethod
     public void afterMethod() {
-
+        String sessionId = getSessionId();
         takeScreenshot();
         closeWebDriver();
+
+        if ("true".equals(System.getProperty("video.enabled"))) {
+            //sleep(5000);
+            attachAllureVideo(sessionId);
+        }
     }
 
     public static boolean isUnix() {
         String os = System.getProperty("os.name").toLowerCase();
         //System.out.println("isUnix: " + os);
         return (os.contains("nix") || os.contains("nux"));// || isWindows(); // linux or unix
+    }
+
+    public static String getSessionId() {
+        return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
     }
 
 }
