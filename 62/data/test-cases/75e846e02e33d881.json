@@ -1,0 +1,354 @@
+{
+  "uid" : "75e846e02e33d881",
+  "name" : "Валидация главной страницы",
+  "fullName" : "com.test.qabattle.tests.ArticlesTest.mainPageTest",
+  "historyId" : "a3e0d5fef882bc819d21e49dbd38b30d",
+  "time" : {
+    "start" : 1597989618864,
+    "stop" : 1597989619154,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1597989602306,
+      "stop" : 1597989602334,
+      "duration" : 28
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1597989615873,
+      "stop" : 1597989618831,
+      "duration" : 2958
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1597989615873,
+        "stop" : 1597989618599,
+        "duration" : 2726
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1597989615873,
+          "stop" : 1597989618599,
+          "duration" : 2726
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация через cookies",
+      "time" : {
+        "start" : 1597989618599,
+        "stop" : 1597989618831,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(#mainContainer) should be(visible)",
+      "time" : {
+        "start" : 1597989618864,
+        "stop" : 1597989618902,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(img#avatar) should be(visible)",
+      "time" : {
+        "start" : 1597989618902,
+        "stop" : 1597989618952,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.card-header) should be(visible)",
+      "time" : {
+        "start" : 1597989618953,
+        "stop" : 1597989618982,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.card-header) should have(exact text 'Articles to read')",
+      "time" : {
+        "start" : 1597989618983,
+        "stop" : 1597989619007,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.card-body/button.tree-main-button) should have(size(3))",
+      "time" : {
+        "start" : 1597989619007,
+        "stop" : 1597989619040,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1597989619007,
+          "stop" : 1597989619039,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button[0]) should have(exact text 'Advertisers')",
+      "time" : {
+        "start" : 1597989619040,
+        "stop" : 1597989619080,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1597989619040,
+          "stop" : 1597989619066,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button[1]) should have(exact text 'Publishers')",
+      "time" : {
+        "start" : 1597989619081,
+        "stop" : 1597989619116,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1597989619081,
+          "stop" : 1597989619102,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button[2]) should have(exact text 'Top level clients')",
+      "time" : {
+        "start" : 1597989619116,
+        "stop" : 1597989619154,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1597989619116,
+          "stop" : 1597989619136,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1597989619158,
+      "stop" : 1597989619622,
+      "duration" : 464
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58a9d7f81e2ffb86",
+      "name" : "Screenshot",
+      "source" : "58a9d7f81e2ffb86.png",
+      "type" : "image/png",
+      "size" : 339065
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "mainPageTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az184"
+  }, {
+    "name" : "thread",
+    "value" : "4989@fv-az184.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Главная страница"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75e846e02e33d881.json",
+  "parameterValues" : [ ]
+}

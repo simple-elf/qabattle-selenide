@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://simple-elf.github.io/qabattle-selenide",
+  "buildOrder" : 62,
+  "buildName" : "GitHub Actions Run #217918107",
+  "buildUrl" : "https://github.com/simple-elf/qabattle-selenide/actions/runs/217918107",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62/"
+} ]

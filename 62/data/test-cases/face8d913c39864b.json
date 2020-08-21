@@ -1,0 +1,548 @@
+{
+  "uid" : "face8d913c39864b",
+  "name" : "Авторизация с отменой второго алерта",
+  "fullName" : "com.test.qabattle.tests.LoginTest.dismissSecondAlertLoginTest",
+  "historyId" : "7ee6591d21df764f1bfbfa05bd64f5e5",
+  "time" : {
+    "start" : 1597989650217,
+    "stop" : 1597989660066,
+    "duration" : 9849
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1597989619623,
+      "stop" : 1597989619624,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1597989650218,
+        "stop" : 1597989652931,
+        "duration" : 2713
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1597989650218,
+          "stop" : 1597989652931,
+          "duration" : 2713
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод логина и пароля",
+      "time" : {
+        "start" : 1597989652931,
+        "stop" : 1597989653510,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод логина",
+        "time" : {
+          "start" : 1597989652931,
+          "stop" : 1597989653185,
+          "duration" : 254
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(input#loginInput) parent()",
+          "time" : {
+            "start" : 1597989652931,
+            "stop" : 1597989652931,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(By.xpath: ..) click()",
+          "time" : {
+            "start" : 1597989652931,
+            "stop" : 1597989653043,
+            "duration" : 112
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(input#loginInput) should not have(attribute disabled)",
+          "time" : {
+            "start" : 1597989653043,
+            "stop" : 1597989653062,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(input#loginInput) set value(test)",
+          "time" : {
+            "start" : 1597989653062,
+            "stop" : 1597989653185,
+            "duration" : 123
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "test"
+        } ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1597989653185,
+          "stop" : 1597989653510,
+          "duration" : 325
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(input#passwordInput) parent()",
+          "time" : {
+            "start" : 1597989653185,
+            "stop" : 1597989653185,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(By.xpath: ..) click()",
+          "time" : {
+            "start" : 1597989653185,
+            "stop" : 1597989653321,
+            "duration" : 136
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(input#passwordInput) should not have(attribute disabled)",
+          "time" : {
+            "start" : 1597989653321,
+            "stop" : 1597989653343,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(input#passwordInput) set value(test)",
+          "time" : {
+            "start" : 1597989653343,
+            "stop" : 1597989653510,
+            "duration" : 167
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pass",
+          "value" : "test"
+        } ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "test"
+      }, {
+        "name" : "pass",
+        "value" : "test"
+      } ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подождать появление кнопки 'Sign In' и нажать на неё",
+      "time" : {
+        "start" : 1597989653510,
+        "stop" : 1597989656745,
+        "duration" : 3235
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(button.findBy(exact text 'Hover me faster!')) should not have(attribute disabled)",
+        "time" : {
+          "start" : 1597989653510,
+          "stop" : 1597989653556,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(button.findBy(exact text 'Hover me faster!')) hover()",
+        "time" : {
+          "start" : 1597989653556,
+          "stop" : 1597989653699,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(button.findBy(exact text 'Wait for some time...')) should(visible)",
+        "time" : {
+          "start" : 1597989653700,
+          "stop" : 1597989653784,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(button.findBy(exact text 'Wait for some time...')) should not have(attribute disabled)",
+        "time" : {
+          "start" : 1597989653784,
+          "stop" : 1597989653821,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(img[src='sign.png']) wait until([visible, 10000])",
+        "time" : {
+          "start" : 1597989653822,
+          "stop" : 1597989656638,
+          "duration" : 2816
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(img[src='sign.png']) click()",
+        "time" : {
+          "start" : 1597989656638,
+          "stop" : 1597989656745,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждения алертов",
+      "time" : {
+        "start" : 1597989656746,
+        "stop" : 1597989659841,
+        "duration" : 3095
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждения алерта",
+        "time" : {
+          "start" : 1597989656746,
+          "stop" : 1597989656756,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedText",
+          "value" : "Are you sure you want to login?"
+        }, {
+          "name" : "accept",
+          "value" : "true"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание второго алерта",
+        "time" : {
+          "start" : 1597989656756,
+          "stop" : 1597989656756,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Подтверждения алерта",
+        "time" : {
+          "start" : 1597989656756,
+          "stop" : 1597989659841,
+          "duration" : 3085
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedText",
+          "value" : "Really sure?"
+        }, {
+          "name" : "accept",
+          "value" : "false"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first",
+        "value" : "true"
+      }, {
+        "name" : "second",
+        "value" : "false"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(#registrationContainer) should(hidden)",
+      "time" : {
+        "start" : 1597989659841,
+        "stop" : 1597989659956,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#mainContainer) should not(visible)",
+      "time" : {
+        "start" : 1597989659956,
+        "stop" : 1597989659983,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(body[background='fail.png']) should(visible)",
+      "time" : {
+        "start" : 1597989659983,
+        "stop" : 1597989660066,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 27,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1597989660068,
+      "stop" : 1597989660469,
+      "duration" : 401
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ead35c059bcda432",
+      "name" : "Screenshot",
+      "source" : "ead35c059bcda432.png",
+      "type" : "image/png",
+      "size" : 314641
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "dismissSecondAlertLoginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az184"
+  }, {
+    "name" : "thread",
+    "value" : "4989@fv-az184.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Форма авторизации"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "face8d913c39864b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 62,
+  "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 10
+  }
+} ]

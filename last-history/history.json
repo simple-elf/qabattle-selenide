@@ -1,0 +1,204 @@
+{
+  "54c032798655f9a1c1387382ad65d115" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e77c2983db8d99b1",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/e77c2983db8d99b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989660505,
+        "stop" : 1597989671099,
+        "duration" : 10594
+      }
+    } ]
+  },
+  "a3e0d5fef882bc819d21e49dbd38b30d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75e846e02e33d881",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/75e846e02e33d881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989618864,
+        "stop" : 1597989619154,
+        "duration" : 290
+      }
+    } ]
+  },
+  "b97ee65532cea67becac389604931916" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29cf12fe8a3463e7",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/29cf12fe8a3463e7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {img[src='sign.png']}\nExpected: visible\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[src='sign.png']\"}",
+      "time" : {
+        "start" : 1597989635742,
+        "stop" : 1597989649719,
+        "duration" : 13977
+      }
+    } ]
+  },
+  "5a30a19e7fa0ec36c5897565c785a7ce" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "559759148e989601",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/559759148e989601",
+      "status" : "failed",
+      "statusDetails" : "Element should hidden {img[src='sign.png']}\nElement: '<img src=\"sign.png\"></img>'\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1597989619626,
+        "stop" : 1597989635242,
+        "duration" : 15616
+      }
+    } ]
+  },
+  "8adfd7dfa107e502e4f462d9fdcad988" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6350b50876723f49",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/6350b50876723f49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989671616,
+        "stop" : 1597989674933,
+        "duration" : 3317
+      }
+    } ]
+  },
+  "7ee6591d21df764f1bfbfa05bd64f5e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "face8d913c39864b",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/face8d913c39864b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989650217,
+        "stop" : 1597989660066,
+        "duration" : 9849
+      }
+    } ]
+  },
+  "ea952d3fcdd235bdc059859bb8889b1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c56a61f29275af9b",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/c56a61f29275af9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989607682,
+        "stop" : 1597989610405,
+        "duration" : 2723
+      }
+    } ]
+  },
+  "f987501f65e8d19acec226fbcbdfc9bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f17e220353f71ec",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/6f17e220353f71ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989679192,
+        "stop" : 1597989695914,
+        "duration" : 16722
+      }
+    } ]
+  },
+  "a5590f2ba3dc02ab7475e4ca60e56a99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "991fcc028dee28e7",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/991fcc028dee28e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989613807,
+        "stop" : 1597989615365,
+        "duration" : 1558
+      }
+    } ]
+  },
+  "de5bae8854e8ee01e9875afcffef7f24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74d62b977fb97066",
+      "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/74d62b977fb97066",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597989675385,
+        "stop" : 1597989678693,
+        "duration" : 3308
+      }
+    } ]
+  }
+}

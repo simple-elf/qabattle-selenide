@@ -1,0 +1,248 @@
+{
+  "uid" : "6350b50876723f49",
+  "name" : "Авторизация через Cookie",
+  "fullName" : "com.test.qabattle.tests.LoginTest.loginByCookiesTest",
+  "historyId" : "8adfd7dfa107e502e4f462d9fdcad988",
+  "time" : {
+    "start" : 1597989671616,
+    "stop" : 1597989674933,
+    "duration" : 3317
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1597989619623,
+      "stop" : 1597989619624,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1597989671616,
+        "stop" : 1597989674251,
+        "duration" : 2635
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1597989671616,
+          "stop" : 1597989674251,
+          "duration" : 2635
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация через cookies",
+      "time" : {
+        "start" : 1597989674252,
+        "stop" : 1597989674491,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#mainContainer) should(visible)",
+      "time" : {
+        "start" : 1597989674492,
+        "stop" : 1597989674544,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1597989674544,
+        "stop" : 1597989674681,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1597989674544,
+          "stop" : 1597989674681,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(#mainContainer) should(visible)",
+      "time" : {
+        "start" : 1597989674682,
+        "stop" : 1597989674727,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#mainContainer) should(hidden)",
+      "time" : {
+        "start" : 1597989674807,
+        "stop" : 1597989674846,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#registrationContainer) should(visible)",
+      "time" : {
+        "start" : 1597989674846,
+        "stop" : 1597989674932,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1597989674934,
+      "stop" : 1597989675382,
+      "duration" : 448
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b4d6f6dcb24f12e",
+      "name" : "Screenshot",
+      "source" : "7b4d6f6dcb24f12e.png",
+      "type" : "image/png",
+      "size" : 333590
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginByCookiesTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az184"
+  }, {
+    "name" : "thread",
+    "value" : "4989@fv-az184.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Форма авторизации"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6350b50876723f49.json",
+  "parameterValues" : [ ]
+}
