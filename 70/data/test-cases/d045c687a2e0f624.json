@@ -1,0 +1,509 @@
+{
+  "uid" : "d045c687a2e0f624",
+  "name" : "Валидация формы авторизации",
+  "fullName" : "com.test.qabattle.tests.LoginTest.loginFormTest",
+  "historyId" : "de5bae8854e8ee01e9875afcffef7f24",
+  "time" : {
+    "start" : 1598015315109,
+    "stop" : 1598015318901,
+    "duration" : 3792
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1598015224189,
+      "stop" : 1598015224191,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1598015315109,
+        "stop" : 1598015317966,
+        "duration" : 2857
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1598015315109,
+          "stop" : 1598015317966,
+          "duration" : 2857
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Welcom to Propeller Automated Testing Championship",
+      "time" : {
+        "start" : 1598015317982,
+        "stop" : 1598015317982,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#registrationContainer) should be(visible)",
+      "time" : {
+        "start" : 1598015317982,
+        "stop" : 1598015318059,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(div.card-header h4) should be(visible)",
+      "time" : {
+        "start" : 1598015318059,
+        "stop" : 1598015318163,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(div.card-header h4) should have(exact text 'Welcome to Propeller Championship!')",
+      "time" : {
+        "start" : 1598015318163,
+        "stop" : 1598015318215,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(h6) should be(visible)",
+      "time" : {
+        "start" : 1598015318215,
+        "stop" : 1598015318314,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(h6) should have(exact text 'Fill login form to sign in')",
+      "time" : {
+        "start" : 1598015318314,
+        "stop" : 1598015318361,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(input#loginInput) should be(visible)",
+      "time" : {
+        "start" : 1598015318361,
+        "stop" : 1598015318445,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(input#loginInput) should have(attribute placeholder=\"Your Login\")",
+      "time" : {
+        "start" : 1598015318445,
+        "stop" : 1598015318467,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(input#loginInput) should have(attribute disabled)",
+      "time" : {
+        "start" : 1598015318467,
+        "stop" : 1598015318487,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#loginHelp) should be(visible)",
+      "time" : {
+        "start" : 1598015318487,
+        "stop" : 1598015318568,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#loginHelp) should have(exact text 'We'll never share your email with anyone else.')",
+      "time" : {
+        "start" : 1598015318568,
+        "stop" : 1598015318601,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(input#passwordInput) should be(visible)",
+      "time" : {
+        "start" : 1598015318601,
+        "stop" : 1598015318629,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(input#passwordInput) should have(attribute placeholder=\"Your Password\")",
+      "time" : {
+        "start" : 1598015318629,
+        "stop" : 1598015318647,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(input#passwordInput) should have(attribute disabled)",
+      "time" : {
+        "start" : 1598015318647,
+        "stop" : 1598015318682,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#passwordHelp) should be(visible)",
+      "time" : {
+        "start" : 1598015318682,
+        "stop" : 1598015318714,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#passwordHelp) should have(exact text 'We'll never save your password anywhere.')",
+      "time" : {
+        "start" : 1598015318714,
+        "stop" : 1598015318738,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(button.findBy(exact text 'Hover me faster!')) should be(visible)",
+      "time" : {
+        "start" : 1598015318738,
+        "stop" : 1598015318851,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(button.findBy(exact text 'Hover me faster!')) should have(attribute disabled)",
+      "time" : {
+        "start" : 1598015318851,
+        "stop" : 1598015318901,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598015318904,
+      "stop" : 1598015325494,
+      "duration" : 6590
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc0ff71e3715b713",
+      "name" : "Screenshot",
+      "source" : "fc0ff71e3715b713.png",
+      "type" : "image/png",
+      "size" : 333590
+    }, {
+      "uid" : "ef4f4371f7af4d61",
+      "name" : "Video",
+      "source" : "ef4f4371f7af4d61.mp4",
+      "type" : "video/mp4",
+      "size" : 112571
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFormTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az184"
+  }, {
+    "name" : "thread",
+    "value" : "4917@fv-az184.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Форма авторизации"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 7,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "47aa13da9818b506",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/69//#testresult/47aa13da9818b506",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014906009,
+          "stop" : 1598014906009,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6d048ddef43b5593",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/68//#testresult/6d048ddef43b5593",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014464988,
+          "stop" : 1598014464988,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "de689791a3a6b271",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/67//#testresult/de689791a3a6b271",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014218769,
+          "stop" : 1598014218770,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "238e81bf3eda79f",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/66//#testresult/238e81bf3eda79f",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598011482500,
+          "stop" : 1598011482500,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "57c73ec43a9d1b41",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/65//#testresult/57c73ec43a9d1b41",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598010018336,
+          "stop" : 1598010018336,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6c505032882c4145",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/64//#testresult/6c505032882c4145",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598009268244,
+          "stop" : 1598009268244,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4afc59895664c102",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/63//#testresult/4afc59895664c102",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598007141640,
+          "stop" : 1598007141640,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "74d62b977fb97066",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/74d62b977fb97066",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597989675385,
+          "stop" : 1597989678693,
+          "duration" : 3308
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d045c687a2e0f624.json",
+  "parameterValues" : [ ]
+}

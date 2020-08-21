@@ -1,0 +1,615 @@
+{
+  "uid" : "32557734acebb3f8",
+  "name" : "Проверка скачивания описания статьи",
+  "fullName" : "com.test.qabattle.tests.ArticlesTest.downloadArticleTest",
+  "historyId" : "ea952d3fcdd235bdc059859bb8889b1d",
+  "time" : {
+    "start" : 1598015191685,
+    "stop" : 1598015195081,
+    "duration" : 3396
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1598015183385,
+      "stop" : 1598015183407,
+      "duration" : 22
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1598015183427,
+      "stop" : 1598015191278,
+      "duration" : 7851
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(div.card-body) $(h6)",
+      "time" : {
+        "start" : 1598015183600,
+        "stop" : 1598015183641,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1598015183685,
+        "stop" : 1598015191112,
+        "duration" : 7427
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1598015183686,
+          "stop" : 1598015191112,
+          "duration" : 7426
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация через cookies",
+      "time" : {
+        "start" : 1598015191113,
+        "stop" : 1598015191278,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(.card-body) $$(button.tree-main-button)",
+      "time" : {
+        "start" : 1598015191688,
+        "stop" : 1598015191688,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Advertisers')) click()",
+      "time" : {
+        "start" : 1598015191694,
+        "stop" : 1598015192251,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1598015191695,
+          "stop" : 1598015191881,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Advertisers')) parent()",
+      "time" : {
+        "start" : 1598015192252,
+        "stop" : 1598015192252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ..) $$(button.tree-button)",
+      "time" : {
+        "start" : 1598015192252,
+        "stop" : 1598015192252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button[0]) click()",
+      "time" : {
+        "start" : 1598015192253,
+        "stop" : 1598015192691,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1598015192253,
+          "stop" : 1598015192490,
+          "duration" : 237
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1598015192254,
+            "stop" : 1598015192351,
+            "duration" : 97
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(#dataCard .card .card-body) $(h5.card-title)",
+      "time" : {
+        "start" : 1598015192692,
+        "stop" : 1598015192692,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $(.card-text)",
+      "time" : {
+        "start" : 1598015192699,
+        "stop" : 1598015192700,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $(textarea.form-control)",
+      "time" : {
+        "start" : 1598015192700,
+        "stop" : 1598015192700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $$(button)",
+      "time" : {
+        "start" : 1598015192700,
+        "stop" : 1598015192700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $(div .card-text)",
+      "time" : {
+        "start" : 1598015192700,
+        "stop" : 1598015192700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $(#heroImage)",
+      "time" : {
+        "start" : 1598015192700,
+        "stop" : 1598015192700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $(.ui-slider)",
+      "time" : {
+        "start" : 1598015192700,
+        "stop" : 1598015192700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $$(button)",
+      "time" : {
+        "start" : 1598015192700,
+        "stop" : 1598015192701,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) $$(button)",
+      "time" : {
+        "start" : 1598015192701,
+        "stop" : 1598015192701,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#dataCard .card .card-body) should(visible)",
+      "time" : {
+        "start" : 1598015192701,
+        "stop" : 1598015194906,
+        "duration" : 2205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button[0]) get text()",
+      "time" : {
+        "start" : 1598015194906,
+        "stop" : 1598015195031,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1598015194906,
+          "stop" : 1598015195008,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1598015194906,
+            "stop" : 1598015194952,
+            "duration" : 46
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(h5.card-title) should have(exact text 'Test Advertiser')",
+      "time" : {
+        "start" : 1598015195032,
+        "stop" : 1598015195079,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598015195109,
+      "stop" : 1598015201865,
+      "duration" : 6756
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0e4b2df9ce0dcf0",
+      "name" : "Screenshot",
+      "source" : "f0e4b2df9ce0dcf0.png",
+      "type" : "image/png",
+      "size" : 402721
+    }, {
+      "uid" : "e8cafb4a6487de67",
+      "name" : "Video",
+      "source" : "e8cafb4a6487de67.mp4",
+      "type" : "video/mp4",
+      "size" : 244763
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "downloadArticleTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az184"
+  }, {
+    "name" : "thread",
+    "value" : "4917@fv-az184.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Главная страница"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 7,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "6eb9fa66c7744eb5",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/69//#testresult/6eb9fa66c7744eb5",
+        "status" : "skipped",
+        "statusDetails" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.45 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1598014905325,
+          "stop" : 1598014905328,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "40925e8ae6646a8c",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/68//#testresult/40925e8ae6646a8c",
+        "status" : "skipped",
+        "statusDetails" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.75 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1598014464235,
+          "stop" : 1598014464236,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "802420335aad7dfe",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/67//#testresult/802420335aad7dfe",
+        "status" : "skipped",
+        "statusDetails" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.50 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1598014218112,
+          "stop" : 1598014218113,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "99f06e400740445d",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/66//#testresult/99f06e400740445d",
+        "status" : "skipped",
+        "statusDetails" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.88 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az151', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1598011481557,
+          "stop" : 1598011481560,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "b6cc175b3b728293",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/65//#testresult/b6cc175b3b728293",
+        "status" : "skipped",
+        "statusDetails" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.81 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az184', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1598010017604,
+          "stop" : 1598010017605,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "86de053993083a04",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/64//#testresult/86de053993083a04",
+        "status" : "skipped",
+        "statusDetails" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.96 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1598009267538,
+          "stop" : 1598009267540,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "e8f14441657f4af2",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/63//#testresult/e8f14441657f4af2",
+        "status" : "skipped",
+        "statusDetails" : "org.openqa.selenium.WebDriverException: start video container: create video container: Error response from daemon: create \"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\": \"\\\"/home/runner/work/qabattle-selenide/qabattle-selenide/opt\\\"\" includes invalid characters for a local volume name, only \"[a-zA-Z0-9][a-zA-Z0-9_.-]\" are allowed. If you intended to pass a host directory, use absolute path (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.82 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az195', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1034-azure', java.version: '1.8.0_265'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1598007141007,
+          "stop" : 1598007141008,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c56a61f29275af9b",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/c56a61f29275af9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597989607682,
+          "stop" : 1597989610405,
+          "duration" : 2723
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "32557734acebb3f8.json",
+  "parameterValues" : [ ]
+}

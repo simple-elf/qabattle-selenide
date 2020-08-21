@@ -1,0 +1,101 @@
+[ {
+  "uid" : "7057ebbee13aa51c",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1598015205387,
+    "stop" : 1598015207201,
+    "duration" : 1814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fcaeb2e058b9d6c",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1598015304642,
+    "stop" : 1598015308521,
+    "duration" : 3879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfb40a32f163841f",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1598015265707,
+    "stop" : 1598015281779,
+    "duration" : 16072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3a1dedad50d15cf",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1598015288384,
+    "stop" : 1598015298074,
+    "duration" : 9690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67249cd1b423312c",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1598015216924,
+    "stop" : 1598015217647,
+    "duration" : 723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d045c687a2e0f624",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1598015315109,
+    "stop" : 1598015318901,
+    "duration" : 3792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69d33a2de83f9380",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1598015224193,
+    "stop" : 1598015238714,
+    "duration" : 14521
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "32557734acebb3f8",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1598015191685,
+    "stop" : 1598015195081,
+    "duration" : 3396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b28ceff266f742e",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1598015325501,
+    "stop" : 1598015346470,
+    "duration" : 20969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4cc78a5c0e44ebe",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1598015245229,
+    "stop" : 1598015259166,
+    "duration" : 13937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

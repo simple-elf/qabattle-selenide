@@ -1,0 +1,344 @@
+{
+  "uid" : "4fcaeb2e058b9d6c",
+  "name" : "Авторизация через Cookie",
+  "fullName" : "com.test.qabattle.tests.LoginTest.loginByCookiesTest",
+  "historyId" : "8adfd7dfa107e502e4f462d9fdcad988",
+  "time" : {
+    "start" : 1598015304642,
+    "stop" : 1598015308521,
+    "duration" : 3879
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1598015224189,
+      "stop" : 1598015224191,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1598015304642,
+        "stop" : 1598015307360,
+        "duration" : 2718
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1598015304642,
+          "stop" : 1598015307360,
+          "duration" : 2718
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация через cookies",
+      "time" : {
+        "start" : 1598015307360,
+        "stop" : 1598015307814,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#mainContainer) should(visible)",
+      "time" : {
+        "start" : 1598015307814,
+        "stop" : 1598015307891,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1598015307891,
+        "stop" : 1598015308004,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1598015307891,
+          "stop" : 1598015308004,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(#mainContainer) should(visible)",
+      "time" : {
+        "start" : 1598015308004,
+        "stop" : 1598015308201,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#mainContainer) should(hidden)",
+      "time" : {
+        "start" : 1598015308323,
+        "stop" : 1598015308425,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#registrationContainer) should(visible)",
+      "time" : {
+        "start" : 1598015308425,
+        "stop" : 1598015308520,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598015308522,
+      "stop" : 1598015315102,
+      "duration" : 6580
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "efacff8eaac7cfad",
+      "name" : "Screenshot",
+      "source" : "efacff8eaac7cfad.png",
+      "type" : "image/png",
+      "size" : 333590
+    }, {
+      "uid" : "a5270428ed3a7538",
+      "name" : "Video",
+      "source" : "a5270428ed3a7538.mp4",
+      "type" : "video/mp4",
+      "size" : 130668
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginByCookiesTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az184"
+  }, {
+    "name" : "thread",
+    "value" : "4917@fv-az184.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Форма авторизации"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 7,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "b311dbd526b133a2",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/69//#testresult/b311dbd526b133a2",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014906007,
+          "stop" : 1598014906007,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "61b0a2d22721099",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/68//#testresult/61b0a2d22721099",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014464986,
+          "stop" : 1598014464986,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cfc328738b0685bf",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/67//#testresult/cfc328738b0685bf",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014218768,
+          "stop" : 1598014218768,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1a30ca33f00cef91",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/66//#testresult/1a30ca33f00cef91",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598011482493,
+          "stop" : 1598011482494,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e5e87c46d0d85026",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/65//#testresult/e5e87c46d0d85026",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598010018324,
+          "stop" : 1598010018325,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f0cb4cdecf25c2f0",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/64//#testresult/f0cb4cdecf25c2f0",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598009268237,
+          "stop" : 1598009268237,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e646a6a3192fc094",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/63//#testresult/e646a6a3192fc094",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598007141638,
+          "stop" : 1598007141638,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6350b50876723f49",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/6350b50876723f49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597989671616,
+          "stop" : 1597989674933,
+          "duration" : 3317
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4fcaeb2e058b9d6c.json",
+  "parameterValues" : [ ]
+}
