@@ -25,7 +25,7 @@ services:
       - "$PWD/opt/:/opt/selenoid/video/"
       - "$PWD/opt/:/opt/selenoid/logs/"
     environment:
-      - OVERRIDE_VIDEO_OUTPUT_DIR="$PWD/opt"
+      - OVERRIDE_VIDEO_OUTPUT_DIR=$PWD/opt
     command: ["-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs", "-capture-driver-logs", "-container-network", "qabattle-selenide_selenoid"]
     ports:
       - "4444:4444"
