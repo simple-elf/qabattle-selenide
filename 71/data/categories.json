@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should hidden {img[src='sign.png']}\nElement: '<img src=\"sign.png\"></img>'\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "7c1bbc20e21bd4e4",
+        "parentUid" : "d38e4b1866e6248f50b34bbf423009a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599923450130,
+          "stop" : 1599923460887,
+          "duration" : 10757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d38e4b1866e6248f50b34bbf423009a5"
+    }, {
+      "name" : "Element not found {img[src='sign.png']}\nExpected: visible\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[src='sign.png']\"}",
+      "children" : [ {
+        "name" : "Авторизация с отменой второго алерта",
+        "uid" : "d857277560c7ed9d",
+        "parentUid" : "3cb9a95d41fae518a7c0462adeef9070",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599923479999,
+          "stop" : 1599923494699,
+          "duration" : 14700
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cb9a95d41fae518a7c0462adeef9070"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

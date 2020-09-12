@@ -1,0 +1,143 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Главная страница",
+    "children" : [ {
+      "name" : "Проверка скачивания описания статьи",
+      "uid" : "74368312603299f8",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923417315,
+        "stop" : 1599923421165,
+        "duration" : 3850
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация вложенных статей",
+      "uid" : "5b165143e3720451",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923431287,
+        "stop" : 1599923433391,
+        "duration" : 2104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация главной страницы",
+      "uid" : "3757ed8f38c33362",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923442851,
+        "stop" : 1599923443653,
+        "duration" : 802
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0a3ae5f257f84b35d1433009096f560f"
+  }, {
+    "name" : "Форма авторизации",
+    "children" : [ {
+      "name" : "Ввод и очистка полей логина и пароля",
+      "uid" : "7c1bbc20e21bd4e4",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1599923450130,
+        "stop" : 1599923460887,
+        "duration" : 10757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с отменой первого алерта",
+      "uid" : "cb94dc258de58d0a",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923467386,
+        "stop" : 1599923473449,
+        "duration" : 6063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с отменой второго алерта",
+      "uid" : "d857277560c7ed9d",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1599923479999,
+        "stop" : 1599923494699,
+        "duration" : 14700
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с некорректными данными",
+      "uid" : "78a9523cb48b39b7",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923501184,
+        "stop" : 1599923517236,
+        "duration" : 16052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация через Cookie",
+      "uid" : "7de8b8115c53bd73",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923523767,
+        "stop" : 1599923527718,
+        "duration" : 3951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация формы авторизации",
+      "uid" : "15f9ce82db1ae7cd",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923534247,
+        "stop" : 1599923537833,
+        "duration" : 3586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная авторизация",
+      "uid" : "54a928dfd2595957",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599923544380,
+        "stop" : 1599923563257,
+        "duration" : 18877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8b29a0e65abd2354568893b06c2815d0"
+  } ],
+  "name" : "behaviors"
+}
