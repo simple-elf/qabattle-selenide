@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should hidden {img[src='sign.png']}\nElement: '<img src=\"sign.png\"></img>'\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "cba4a09a3f91239",
+        "parentUid" : "d38e4b1866e6248f50b34bbf423009a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604415766198,
+          "stop" : 1604415780559,
+          "duration" : 14361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d38e4b1866e6248f50b34bbf423009a5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
