@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Requested environment is not available (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 146 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az184-39', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1032-azure', java.version: '1.8.0_275'\nselenide.remote: http://127.0.0.1:4444/wd/hub\nDriver info: driver.version: SelenideDriver\nselenide.url: http://qabattle:8080/index.html\nselenide.baseUrl: http://qabattle:8080",
+      "children" : [ {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "3a2621fcc81b03c",
+        "parentUid" : "c28396f97558addba7a7f0fcf7b1f03c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610455480172,
+          "stop" : 1610455481335,
+          "duration" : 1163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c28396f97558addba7a7f0fcf7b1f03c"
+    }, {
+      "name" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+      "children" : [ {
+        "name" : "afterMethod",
+        "uid" : "c568f95e3464da7c",
+        "parentUid" : "fb591d850b490b03d83413a9291646b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610455481484,
+          "stop" : 1610455481485,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb591d850b490b03d83413a9291646b3"
+    }, {
+      "name" : "Requested environment is not available (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az184-39', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1032-azure', java.version: '1.8.0_275'\nselenide.remote: http://127.0.0.1:4444/wd/hub\nDriver info: driver.version: SelenideDriver\nselenide.url: http://qabattle:8080/index.html\nselenide.baseUrl: http://qabattle:8080",
+      "children" : [ {
+        "name" : "beforeTest",
+        "uid" : "1c3e8d393db9967d",
+        "parentUid" : "95cf57ee00c17f39b6991641cc1b1dc8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610455481558,
+          "stop" : 1610455481559,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95cf57ee00c17f39b6991641cc1b1dc8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

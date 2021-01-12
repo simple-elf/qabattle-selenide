@@ -1,0 +1,121 @@
+[ {
+  "uid" : "27ddcd4565c336ec",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1610455481565,
+    "stop" : 1610455481565,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8a450f2ec7003254",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1610455481506,
+    "stop" : 1610455481506,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c568f95e3464da7c",
+  "name" : "afterMethod",
+  "time" : {
+    "start" : 1610455481484,
+    "stop" : 1610455481485,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75f8e37eae57fee8",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1610455481514,
+    "stop" : 1610455481515,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ad713a09d4f9393e",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1610455481520,
+    "stop" : 1610455481520,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ca5c524d8d7e49a8",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1610455481501,
+    "stop" : 1610455481502,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c783e9e3410be829",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1610455481572,
+    "stop" : 1610455481572,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1c3e8d393db9967d",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1610455481558,
+    "stop" : 1610455481559,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a2621fcc81b03c",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1610455480172,
+    "stop" : 1610455481335,
+    "duration" : 1163
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f268af3e23250b94",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1610455481493,
+    "stop" : 1610455481494,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cad642b69cb6581e",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1610455481511,
+    "stop" : 1610455481511,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f3ccb144622bc97c",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1610455481569,
+    "stop" : 1610455481569,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
