@@ -1,0 +1,169 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az195-130",
+    "children" : [ {
+      "name" : "4381@fv-az195-130.main(1)",
+      "children" : [ {
+        "name" : "Валидация главной страницы",
+        "uid" : "df6d4083937de54d",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660070,
+          "stop" : 1610522660070,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethod",
+        "uid" : "48fd334a13cfef79",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610522660010,
+          "stop" : 1610522660010,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeTest",
+        "uid" : "cacef97d09f4327c",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610522660062,
+          "stop" : 1610522660062,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация с отменой первого алерта",
+        "uid" : "e247e9b73511d3b",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660013,
+          "stop" : 1610522660013,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "290a65922b544797",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610522658962,
+          "stop" : 1610522659923,
+          "duration" : 961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация через Cookie",
+        "uid" : "12424186b59a3811",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660035,
+          "stop" : 1610522660035,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация с некорректными данными",
+        "uid" : "5024aec6b991be76",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660027,
+          "stop" : 1610522660027,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка скачивания описания статьи",
+        "uid" : "e8b913b46f598250",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660064,
+          "stop" : 1610522660065,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация с отменой второго алерта",
+        "uid" : "a7e85a1621799dd7",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660019,
+          "stop" : 1610522660019,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Валидация формы авторизации",
+        "uid" : "ff2b452586d7f78b",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660037,
+          "stop" : 1610522660037,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешная авторизация",
+        "uid" : "af246958e3cd129b",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660039,
+          "stop" : 1610522660039,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Валидация вложенных статей",
+        "uid" : "14cbc8c0c36aec05",
+        "parentUid" : "3111e6305c19fb2083b9b8583c316bae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610522660067,
+          "stop" : 1610522660067,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3111e6305c19fb2083b9b8583c316bae"
+    } ],
+    "uid" : "f1b42bf0ba56b8d0fd5975c9e8979835"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,177 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "com.test.qabattle.tests.LoginTest",
+        "children" : [ {
+          "name" : "Ввод и очистка полей логина и пароля",
+          "uid" : "290a65922b544797",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "broken",
+          "time" : {
+            "start" : 1610522658962,
+            "stop" : 1610522659923,
+            "duration" : 961
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "afterMethod",
+          "uid" : "48fd334a13cfef79",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "broken",
+          "time" : {
+            "start" : 1610522660010,
+            "stop" : 1610522660010,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация с отменой первого алерта",
+          "uid" : "e247e9b73511d3b",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660013,
+            "stop" : 1610522660013,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация с отменой второго алерта",
+          "uid" : "a7e85a1621799dd7",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660019,
+            "stop" : 1610522660019,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация с некорректными данными",
+          "uid" : "5024aec6b991be76",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660027,
+            "stop" : 1610522660027,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация через Cookie",
+          "uid" : "12424186b59a3811",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660035,
+            "stop" : 1610522660035,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Валидация формы авторизации",
+          "uid" : "ff2b452586d7f78b",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660037,
+            "stop" : 1610522660037,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Успешная авторизация",
+          "uid" : "af246958e3cd129b",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660039,
+            "stop" : 1610522660039,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7f133d7b19ca809f42a23a2861a084d4"
+      }, {
+        "name" : "com.test.qabattle.tests.ArticlesTest",
+        "children" : [ {
+          "name" : "beforeTest",
+          "uid" : "cacef97d09f4327c",
+          "parentUid" : "e14c6e41d4b9bf9c6343c4956338a029",
+          "status" : "broken",
+          "time" : {
+            "start" : 1610522660062,
+            "stop" : 1610522660062,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Проверка скачивания описания статьи",
+          "uid" : "e8b913b46f598250",
+          "parentUid" : "e14c6e41d4b9bf9c6343c4956338a029",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660064,
+            "stop" : 1610522660065,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Валидация вложенных статей",
+          "uid" : "14cbc8c0c36aec05",
+          "parentUid" : "e14c6e41d4b9bf9c6343c4956338a029",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660067,
+            "stop" : 1610522660067,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Валидация главной страницы",
+          "uid" : "df6d4083937de54d",
+          "parentUid" : "e14c6e41d4b9bf9c6343c4956338a029",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610522660070,
+            "stop" : 1610522660070,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e14c6e41d4b9bf9c6343c4956338a029"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}
