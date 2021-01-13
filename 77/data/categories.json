@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should hidden {img[src='sign.png']}\nElement: '<img src=\"sign.png\"></img>'\nPage source: file:/home/runner/work/qabattle-selenide/qabattle-selenide/target/reports/1610523444185.0.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "64a5ba0d5f574f26",
+        "parentUid" : "688718904c874aa2b692fc4ebdcf5853",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610523417975,
+          "stop" : 1610523444827,
+          "duration" : 26852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "688718904c874aa2b692fc4ebdcf5853"
+    }, {
+      "name" : "Element not found {img[src='sign.png']}\nExpected: visible\nPage source: file:/home/runner/work/qabattle-selenide/qabattle-selenide/target/reports/1610523508933.1.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[src='sign.png']\"}",
+      "children" : [ {
+        "name" : "Авторизация с отменой второго алерта",
+        "uid" : "9a33289406927245",
+        "parentUid" : "340c46114df21dd3aa75547b4ee1f943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610523497905,
+          "stop" : 1610523509334,
+          "duration" : 11429
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "340c46114df21dd3aa75547b4ee1f943"
+    }, {
+      "name" : "Element not found {img[src='sign.png']}\nExpected: visible\nPage source: file:/home/runner/work/qabattle-selenide/qabattle-selenide/target/reports/1610523541516.2.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[src='sign.png']\"}",
+      "children" : [ {
+        "name" : "Авторизация с некорректными данными",
+        "uid" : "4ecb52fd354ffdd9",
+        "parentUid" : "fca5a543d050276d92f2ade777dcb22d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610523530385,
+          "stop" : 1610523541948,
+          "duration" : 11563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fca5a543d050276d92f2ade777dcb22d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

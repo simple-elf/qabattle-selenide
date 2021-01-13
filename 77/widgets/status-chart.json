@@ -1,0 +1,101 @@
+[ {
+  "uid" : "64a5ba0d5f574f26",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1610523417975,
+    "stop" : 1610523444827,
+    "duration" : 26852
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8f56d66236dd76b",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1610523606997,
+    "stop" : 1610523617497,
+    "duration" : 10500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c40be457f9cabacf",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1610523639047,
+    "stop" : 1610523641767,
+    "duration" : 2720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a33289406927245",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1610523497905,
+    "stop" : 1610523509334,
+    "duration" : 11429
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ecb52fd354ffdd9",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1610523530385,
+    "stop" : 1610523541948,
+    "duration" : 11563
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86588ef3dc49e61d",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1610523685930,
+    "stop" : 1610523686278,
+    "duration" : 348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3934f6e875b0eddd",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1610523663233,
+    "stop" : 1610523664700,
+    "duration" : 1467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "991cd35f4b078c16",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1610523563007,
+    "stop" : 1610523564130,
+    "duration" : 1123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e762cfd02575a91",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1610523466101,
+    "stop" : 1610523476815,
+    "duration" : 10714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95620c4d23007a3c",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1610523585237,
+    "stop" : 1610523585955,
+    "duration" : 718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
