@@ -1,0 +1,101 @@
+[ {
+  "uid" : "2b2fcae0f3503626",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1610523565261,
+    "stop" : 1610523567781,
+    "duration" : 2520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56c4a4113e9b20f2",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1610523548895,
+    "stop" : 1610523549349,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20889d834df6342c",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1610523547795,
+    "stop" : 1610523548546,
+    "duration" : 751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c8636f71324afaf",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1610523569729,
+    "stop" : 1610523569994,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6fa58f644b6d84e",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1610523534016,
+    "stop" : 1610523547392,
+    "duration" : 13376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bf03c72d7d4d99e",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1610523549632,
+    "stop" : 1610523563956,
+    "duration" : 14324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ec88aa34a318de3",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1610523568395,
+    "stop" : 1610523569245,
+    "duration" : 850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc805462909372c8",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1610523523914,
+    "stop" : 1610523527136,
+    "duration" : 3222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd4f7dcd2bc64368",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1610523506835,
+    "stop" : 1610523523481,
+    "duration" : 16646
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e45e5b1d6d062db",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1610523527486,
+    "stop" : 1610523533600,
+    "duration" : 6114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
