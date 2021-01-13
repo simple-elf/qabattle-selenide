@@ -1,23 +1,16 @@
 package com.test.qabattle.lib;
 
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+import static com.test.qabattle.lib.AllureHelpers.takeScreenshot;
+import static com.test.qabattle.lib.SelenoidVideo.attachAllureVideo;
+
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
-//import io.qameta.allure.selenide.LogType;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-
-import java.util.logging.Level;
-
-//import static com.codeborne.selenide.Selenide.closeWebDriver;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
-import static com.test.qabattle.lib.AllureHelpers.takeScreenshot;
-import static com.test.qabattle.lib.MyChromeBrowserClass.getChromeOptions;
-import static com.test.qabattle.lib.SelenoidVideo.attachAllureVideo;
 
 //@Listeners(MyBrowserPerTest.class)
 public class BaseTestClass {
@@ -31,8 +24,8 @@ public class BaseTestClass {
 
             Configuration.remote = "http://127.0.0.1:4444/wd/hub";
             Configuration.browserCapabilities = new DesiredCapabilities();
-            Configuration.browserCapabilities.setCapability("browserName", "firefox");
-            //Configuration.browser = "firefox";
+            Configuration.browserCapabilities.setCapability("browserName", "opera");
+            Configuration.browser = "opera";
             //TODO
             Configuration.browserSize = "1920x1080";
             Configuration.startMaximized = true;
