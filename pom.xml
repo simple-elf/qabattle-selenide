@@ -11,7 +11,7 @@
     <properties>
         <video.enabled>false</video.enabled>
         <selenoid.url>http://127.0.0.1:4444/wd/hub</selenoid.url>
-        <base.url>http://212.237.55.99:8081</base.url>
+        <base.url>http://127.0.0.1:8081</base.url>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -21,7 +21,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <aspectj.version>1.9.1</aspectj.version>
-        <allure.version>2.13.6</allure.version>
+        <allure.version>2.13.8</allure.version>
     </properties>
 
     <dependencies>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>5.15.1</version>
+            <version>5.17.3</version>
         </dependency>
 
         <dependency>
