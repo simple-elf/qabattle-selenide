@@ -24,7 +24,7 @@ public class BaseTestClass {
 
             Configuration.remote = "http://127.0.0.1:4444/wd/hub";
             Configuration.browserCapabilities = new DesiredCapabilities();
-            Configuration.browserCapabilities.setCapability("browserName", "opera");
+            //Configuration.browserCapabilities.setCapability("browserName", "opera");
             Configuration.browser = "opera";
             //TODO
             Configuration.browserSize = "1920x1080";
