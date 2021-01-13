@@ -1,0 +1,151 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "com.test.qabattle.tests.LoginTest",
+        "children" : [ {
+          "name" : "Ввод и очистка полей логина и пароля",
+          "uid" : "802c9354eaf02fec",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "failed",
+          "time" : {
+            "start" : 1610524345227,
+            "stop" : 1610524359925,
+            "duration" : 14698
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация с отменой первого алерта",
+          "uid" : "3e2b786378bb3487",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524360518,
+            "stop" : 1610524367481,
+            "duration" : 6963
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация с отменой второго алерта",
+          "uid" : "b1cc52fdf7e54a3d",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524367923,
+            "stop" : 1610524378655,
+            "duration" : 10732
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация с некорректными данными",
+          "uid" : "8d60d780ce5ce593",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524379084,
+            "stop" : 1610524391734,
+            "duration" : 12650
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация через Cookie",
+          "uid" : "a3f3069672563cd5",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524392127,
+            "stop" : 1610524393520,
+            "duration" : 1393
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Валидация формы авторизации",
+          "uid" : "6f58af0d32786d84",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524393953,
+            "stop" : 1610524394478,
+            "duration" : 525
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Успешная авторизация",
+          "uid" : "d579bffd058d641d",
+          "parentUid" : "7f133d7b19ca809f42a23a2861a084d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524394825,
+            "stop" : 1610524407682,
+            "duration" : 12857
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7f133d7b19ca809f42a23a2861a084d4"
+      }, {
+        "name" : "com.test.qabattle.tests.ArticlesTest",
+        "children" : [ {
+          "name" : "Проверка скачивания описания статьи",
+          "uid" : "394b3ef069907c7f",
+          "parentUid" : "e14c6e41d4b9bf9c6343c4956338a029",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524408342,
+            "stop" : 1610524411305,
+            "duration" : 2963
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Валидация вложенных статей",
+          "uid" : "8ff63ffed054a1fa",
+          "parentUid" : "e14c6e41d4b9bf9c6343c4956338a029",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524411929,
+            "stop" : 1610524413128,
+            "duration" : 1199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Валидация главной страницы",
+          "uid" : "cb2a879f34a47dc4",
+          "parentUid" : "e14c6e41d4b9bf9c6343c4956338a029",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610524413665,
+            "stop" : 1610524413981,
+            "duration" : 316
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e14c6e41d4b9bf9c6343c4956338a029"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}

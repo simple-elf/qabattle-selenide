@@ -1,0 +1,143 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az148-278",
+    "children" : [ {
+      "name" : "5055@fv-az148-278.main(1)",
+      "children" : [ {
+        "name" : "Валидация главной страницы",
+        "uid" : "cb2a879f34a47dc4",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524413665,
+          "stop" : 1610524413981,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка скачивания описания статьи",
+        "uid" : "394b3ef069907c7f",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524408342,
+          "stop" : 1610524411305,
+          "duration" : 2963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация через Cookie",
+        "uid" : "a3f3069672563cd5",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524392127,
+          "stop" : 1610524393520,
+          "duration" : 1393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "802c9354eaf02fec",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610524345227,
+          "stop" : 1610524359925,
+          "duration" : 14698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация с отменой второго алерта",
+        "uid" : "b1cc52fdf7e54a3d",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524367923,
+          "stop" : 1610524378655,
+          "duration" : 10732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Валидация формы авторизации",
+        "uid" : "6f58af0d32786d84",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524393953,
+          "stop" : 1610524394478,
+          "duration" : 525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Валидация вложенных статей",
+        "uid" : "8ff63ffed054a1fa",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524411929,
+          "stop" : 1610524413128,
+          "duration" : 1199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешная авторизация",
+        "uid" : "d579bffd058d641d",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524394825,
+          "stop" : 1610524407682,
+          "duration" : 12857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация с отменой первого алерта",
+        "uid" : "3e2b786378bb3487",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524360518,
+          "stop" : 1610524367481,
+          "duration" : 6963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация с некорректными данными",
+        "uid" : "8d60d780ce5ce593",
+        "parentUid" : "734c03e86a0dfe998fa3616e0bc89277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524379084,
+          "stop" : 1610524391734,
+          "duration" : 12650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "734c03e86a0dfe998fa3616e0bc89277"
+    } ],
+    "uid" : "e8993f14821d74a9621233f876061482"
+  } ],
+  "name" : "timeline"
+}

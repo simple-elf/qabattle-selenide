@@ -1,0 +1,147 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.test.qabattle.tests",
+    "children" : [ {
+      "name" : "LoginTest",
+      "children" : [ {
+        "name" : "clearLoginAndPassTest",
+        "uid" : "802c9354eaf02fec",
+        "parentUid" : "e88d860594fe8b6a5bc24b8734399750",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610524345227,
+          "stop" : 1610524359925,
+          "duration" : 14698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "dismissFirstAlertLoginTest",
+        "uid" : "3e2b786378bb3487",
+        "parentUid" : "e88d860594fe8b6a5bc24b8734399750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524360518,
+          "stop" : 1610524367481,
+          "duration" : 6963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "dismissSecondAlertLoginTest",
+        "uid" : "b1cc52fdf7e54a3d",
+        "parentUid" : "e88d860594fe8b6a5bc24b8734399750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524367923,
+          "stop" : 1610524378655,
+          "duration" : 10732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "incorrectLoginTest",
+        "uid" : "8d60d780ce5ce593",
+        "parentUid" : "e88d860594fe8b6a5bc24b8734399750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524379084,
+          "stop" : 1610524391734,
+          "duration" : 12650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginByCookiesTest",
+        "uid" : "a3f3069672563cd5",
+        "parentUid" : "e88d860594fe8b6a5bc24b8734399750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524392127,
+          "stop" : 1610524393520,
+          "duration" : 1393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginFormTest",
+        "uid" : "6f58af0d32786d84",
+        "parentUid" : "e88d860594fe8b6a5bc24b8734399750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524393953,
+          "stop" : 1610524394478,
+          "duration" : 525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfulLoginTest",
+        "uid" : "d579bffd058d641d",
+        "parentUid" : "e88d860594fe8b6a5bc24b8734399750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524394825,
+          "stop" : 1610524407682,
+          "duration" : 12857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e88d860594fe8b6a5bc24b8734399750"
+    }, {
+      "name" : "ArticlesTest",
+      "children" : [ {
+        "name" : "downloadArticleTest",
+        "uid" : "394b3ef069907c7f",
+        "parentUid" : "0b2f9cdb4f65c1b066d188b8ecc03253",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524408342,
+          "stop" : 1610524411305,
+          "duration" : 2963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "mainPageArticlesTest",
+        "uid" : "8ff63ffed054a1fa",
+        "parentUid" : "0b2f9cdb4f65c1b066d188b8ecc03253",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524411929,
+          "stop" : 1610524413128,
+          "duration" : 1199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "mainPageTest",
+        "uid" : "cb2a879f34a47dc4",
+        "parentUid" : "0b2f9cdb4f65c1b066d188b8ecc03253",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610524413665,
+          "stop" : 1610524413981,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b2f9cdb4f65c1b066d188b8ecc03253"
+    } ],
+    "uid" : "com.test.qabattle.tests"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,472 @@
+{
+  "uid" : "8d60d780ce5ce593",
+  "name" : "Авторизация с некорректными данными",
+  "fullName" : "com.test.qabattle.tests.LoginTest.incorrectLoginTest",
+  "historyId" : "54c032798655f9a1c1387382ad65d115",
+  "time" : {
+    "start" : 1610524379084,
+    "stop" : 1610524391734,
+    "duration" : 12650
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1610524345072,
+      "stop" : 1610524345093,
+      "duration" : 21
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1610524379085,
+        "stop" : 1610524379163,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Ввод логина и пароля",
+      "time" : {
+        "start" : 1610524379163,
+        "stop" : 1610524379730,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод логина",
+        "time" : {
+          "start" : 1610524379163,
+          "stop" : 1610524379427,
+          "duration" : 264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "wrong"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1610524379427,
+          "stop" : 1610524379730,
+          "duration" : 303
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pass",
+          "value" : "wrong"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "wrong"
+      }, {
+        "name" : "pass",
+        "value" : "wrong"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подождать появление кнопки 'Sign In' и нажать на неё",
+      "time" : {
+        "start" : 1610524379730,
+        "stop" : 1610524388583,
+        "duration" : 8853
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Подтверждения алертов",
+      "time" : {
+        "start" : 1610524388583,
+        "stop" : 1610524391691,
+        "duration" : 3108
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждения алерта",
+        "time" : {
+          "start" : 1610524388584,
+          "stop" : 1610524388601,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedText",
+          "value" : "Are you sure you want to login?"
+        }, {
+          "name" : "accept",
+          "value" : "true"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание второго алерта",
+        "time" : {
+          "start" : 1610524388601,
+          "stop" : 1610524388601,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Подтверждения алерта",
+        "time" : {
+          "start" : 1610524388601,
+          "stop" : 1610524391691,
+          "duration" : 3090
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expectedText",
+          "value" : "Really sure?"
+        }, {
+          "name" : "accept",
+          "value" : "true"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first",
+        "value" : "true"
+      }, {
+        "name" : "second",
+        "value" : "true"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1610524391735,
+      "stop" : 1610524392119,
+      "duration" : 384
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4484c3d5abf23e5",
+      "name" : "Screenshot",
+      "source" : "c4484c3d5abf23e5.png",
+      "type" : "image/png",
+      "size" : 334232
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "incorrectLoginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az148-278"
+  }, {
+    "name" : "thread",
+    "value" : "5055@fv-az148-278.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Форма авторизации"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 11,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "27e715245c5cedb9",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/80//#testresult/27e715245c5cedb9",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1610524165305,
+          "stop" : 1610524165305,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "69e13db8466aaedb",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/79//#testresult/69e13db8466aaedb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610523893271,
+          "stop" : 1610523904329,
+          "duration" : 11058
+        }
+      }, {
+        "uid" : "4ecb52fd354ffdd9",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/77//#testresult/4ecb52fd354ffdd9",
+        "status" : "failed",
+        "statusDetails" : "Element not found {img[src='sign.png']}\nExpected: visible\nPage source: file:/home/runner/work/qabattle-selenide/qabattle-selenide/target/reports/1610523541516.2.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[src='sign.png']\"}",
+        "time" : {
+          "start" : 1610523530385,
+          "stop" : 1610523541948,
+          "duration" : 11563
+        }
+      }, {
+        "uid" : "f6fa58f644b6d84e",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/78//#testresult/f6fa58f644b6d84e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610523534016,
+          "stop" : 1610523547392,
+          "duration" : 13376
+        }
+      }, {
+        "uid" : "ba2f976c1145bd26",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/76//#testresult/ba2f976c1145bd26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610523251360,
+          "stop" : 1610523258643,
+          "duration" : 7283
+        }
+      }, {
+        "uid" : "29170da52d42e33d",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/75//#testresult/29170da52d42e33d",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1610522924387,
+          "stop" : 1610522924387,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5024aec6b991be76",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/74//#testresult/5024aec6b991be76",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1610522660027,
+          "stop" : 1610522660027,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8a450f2ec7003254",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/73//#testresult/8a450f2ec7003254",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1610455481506,
+          "stop" : 1610455481506,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c604a6feb1d8286",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/72//#testresult/c604a6feb1d8286",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604415822421,
+          "stop" : 1604415838387,
+          "duration" : 15966
+        }
+      }, {
+        "uid" : "78a9523cb48b39b7",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/71//#testresult/78a9523cb48b39b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599923501184,
+          "stop" : 1599923517236,
+          "duration" : 16052
+        }
+      }, {
+        "uid" : "e3a1dedad50d15cf",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/70//#testresult/e3a1dedad50d15cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598015288384,
+          "stop" : 1598015298074,
+          "duration" : 9690
+        }
+      }, {
+        "uid" : "442513c260592717",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/69//#testresult/442513c260592717",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014906005,
+          "stop" : 1598014906005,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7a1342f659a4c844",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/68//#testresult/7a1342f659a4c844",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014464975,
+          "stop" : 1598014464975,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "707a3fc780ad3828",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/67//#testresult/707a3fc780ad3828",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598014218764,
+          "stop" : 1598014218764,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "437760fdca89e4af",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/66//#testresult/437760fdca89e4af",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598011482486,
+          "stop" : 1598011482486,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "26f26e53caa47bcb",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/65//#testresult/26f26e53caa47bcb",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598010018316,
+          "stop" : 1598010018316,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c2a3205e1407d036",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/64//#testresult/c2a3205e1407d036",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598009268227,
+          "stop" : 1598009268227,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5e368276c938c922",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/63//#testresult/5e368276c938c922",
+        "status" : "skipped",
+        "statusDetails" : "No webdriver is bound to current thread: 1. You need to call open(url) first.",
+        "time" : {
+          "start" : 1598007141636,
+          "stop" : 1598007141636,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e77c2983db8d99b1",
+        "reportUrl" : "https://simple-elf.github.io/qabattle-selenide/62//#testresult/e77c2983db8d99b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597989660505,
+          "stop" : 1597989671099,
+          "duration" : 10594
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8d60d780ce5ce593.json",
+  "parameterValues" : [ ]
+}
