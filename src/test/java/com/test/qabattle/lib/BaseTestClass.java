@@ -23,7 +23,7 @@ public class BaseTestClass {
             //Configuration.browser = MyRemoteWebDriverClass.class.getName();
 
             Configuration.remote = "http://127.0.0.1:4444/wd/hub";
-            Configuration.browserCapabilities = new DesiredCapabilities();
+            //Configuration.browserCapabilities = new DesiredCapabilities();
             //Configuration.browserCapabilities.setCapability("browserName", "opera");
             Configuration.browser = "opera";
             //TODO
