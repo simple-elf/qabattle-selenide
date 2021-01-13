@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {img[src='sign.png']}\nExpected: visible\nPage source: file:/home/runner/work/qabattle-selenide/qabattle-selenide/target/reports/1610523166264.0.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[src='sign.png']\"}",
+      "children" : [ {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "b2e4b265d8861876",
+        "parentUid" : "6ba1397aee2c8995fce6793a90df8806",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610523148935,
+          "stop" : 1610523166699,
+          "duration" : 17764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ba1397aee2c8995fce6793a90df8806"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "e043914dd5385872",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1610523301469,
+    "stop" : 1610523302010,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f93d28086eada07",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1610523404480,
+    "stop" : 1610523404708,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5daaa5bf568a753a",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1610523382514,
+    "stop" : 1610523383399,
+    "duration" : 885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b41c6b02f917e9fc",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1610523358792,
+    "stop" : 1610523361380,
+    "duration" : 2588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba2f976c1145bd26",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1610523251360,
+    "stop" : 1610523258643,
+    "duration" : 7283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2e4b265d8861876",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1610523148935,
+    "stop" : 1610523166699,
+    "duration" : 17764
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "999a3c247d977f8",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1610523216337,
+    "stop" : 1610523230486,
+    "duration" : 14149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd355e049ca7fcc",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1610523322911,
+    "stop" : 1610523337670,
+    "duration" : 14759
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2b518f23f73252b",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1610523279590,
+    "stop" : 1610523280513,
+    "duration" : 923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "263f794436d9b427",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1610523187833,
+    "stop" : 1610523194466,
+    "duration" : 6633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
