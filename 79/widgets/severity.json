@@ -1,0 +1,101 @@
+[ {
+  "uid" : "a36179afa8e35c46",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1610523887593,
+    "stop" : 1610523892830,
+    "duration" : 5237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36af12d7976536b7",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1610523904768,
+    "stop" : 1610523905606,
+    "duration" : 838
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1e4f2e128386668",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1610523924048,
+    "stop" : 1610523924351,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d277bcfa828491a",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1610523918801,
+    "stop" : 1610523921740,
+    "duration" : 2939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc313feb7dff80c5",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1610523907005,
+    "stop" : 1610523918153,
+    "duration" : 11148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "700c6f7476b90aa4",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1610523906061,
+    "stop" : 1610523906660,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e828d5e19df76b5",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1610523884867,
+    "stop" : 1610523887159,
+    "duration" : 2292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69e13db8466aaedb",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1610523893271,
+    "stop" : 1610523904329,
+    "duration" : 11058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14db804a46062bd8",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1610523868701,
+    "stop" : 1610523884366,
+    "duration" : 15665
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "470605955322c731",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1610523922386,
+    "stop" : 1610523923524,
+    "duration" : 1138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

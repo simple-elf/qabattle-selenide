@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should hidden {img[src='sign.png']}\nElement: '<img src=\"sign.png\"></img>'\nPage source: file:/home/runner/work/qabattle-selenide/qabattle-selenide/target/reports/1610523883867.0.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Ввод и очистка полей логина и пароля",
+        "uid" : "14db804a46062bd8",
+        "parentUid" : "81e1ebd4f72bd15a4005ab6edf6fc88d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610523868701,
+          "stop" : 1610523884366,
+          "duration" : 15665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81e1ebd4f72bd15a4005ab6edf6fc88d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

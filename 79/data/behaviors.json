@@ -1,0 +1,143 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Форма авторизации",
+    "children" : [ {
+      "name" : "Ввод и очистка полей логина и пароля",
+      "uid" : "14db804a46062bd8",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610523868701,
+        "stop" : 1610523884366,
+        "duration" : 15665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с отменой первого алерта",
+      "uid" : "2e828d5e19df76b5",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523884867,
+        "stop" : 1610523887159,
+        "duration" : 2292
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с отменой второго алерта",
+      "uid" : "a36179afa8e35c46",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523887593,
+        "stop" : 1610523892830,
+        "duration" : 5237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация с некорректными данными",
+      "uid" : "69e13db8466aaedb",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523893271,
+        "stop" : 1610523904329,
+        "duration" : 11058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация через Cookie",
+      "uid" : "36af12d7976536b7",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523904768,
+        "stop" : 1610523905606,
+        "duration" : 838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация формы авторизации",
+      "uid" : "700c6f7476b90aa4",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523906061,
+        "stop" : 1610523906660,
+        "duration" : 599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная авторизация",
+      "uid" : "bc313feb7dff80c5",
+      "parentUid" : "8b29a0e65abd2354568893b06c2815d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523907005,
+        "stop" : 1610523918153,
+        "duration" : 11148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8b29a0e65abd2354568893b06c2815d0"
+  }, {
+    "name" : "Главная страница",
+    "children" : [ {
+      "name" : "Проверка скачивания описания статьи",
+      "uid" : "7d277bcfa828491a",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523918801,
+        "stop" : 1610523921740,
+        "duration" : 2939
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация вложенных статей",
+      "uid" : "470605955322c731",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523922386,
+        "stop" : 1610523923524,
+        "duration" : 1138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Валидация главной страницы",
+      "uid" : "c1e4f2e128386668",
+      "parentUid" : "0a3ae5f257f84b35d1433009096f560f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610523924048,
+        "stop" : 1610523924351,
+        "duration" : 303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0a3ae5f257f84b35d1433009096f560f"
+  } ],
+  "name" : "behaviors"
+}
