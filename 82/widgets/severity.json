@@ -1,0 +1,121 @@
+[ {
+  "uid" : "3561061120e71c40",
+  "name" : "Валидация формы авторизации",
+  "time" : {
+    "start" : 1610525303151,
+    "stop" : 1610525303151,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "33677d1058c13f23",
+  "name" : "Валидация вложенных статей",
+  "time" : {
+    "start" : 1610525303193,
+    "stop" : 1610525303193,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aa7bc6726fec71fc",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1610525303188,
+    "stop" : 1610525303189,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4deed5eec3e6f523",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1610525303155,
+    "stop" : 1610525303155,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f9d8d6eeb018369b",
+  "name" : "Ввод и очистка полей логина и пароля",
+  "time" : {
+    "start" : 1610525301927,
+    "stop" : 1610525303001,
+    "duration" : 1074
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "42b508ea3454243e",
+  "name" : "Авторизация через Cookie",
+  "time" : {
+    "start" : 1610525303148,
+    "stop" : 1610525303148,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c2c2a43cc6bfe122",
+  "name" : "afterMethod",
+  "time" : {
+    "start" : 1610525303131,
+    "stop" : 1610525303131,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a01102240e7e9784",
+  "name" : "Валидация главной страницы",
+  "time" : {
+    "start" : 1610525303195,
+    "stop" : 1610525303196,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e95a33ff890093cc",
+  "name" : "Авторизация с некорректными данными",
+  "time" : {
+    "start" : 1610525303143,
+    "stop" : 1610525303143,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "96496c984a16fb79",
+  "name" : "Авторизация с отменой первого алерта",
+  "time" : {
+    "start" : 1610525303135,
+    "stop" : 1610525303135,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e90328c765ec603f",
+  "name" : "Проверка скачивания описания статьи",
+  "time" : {
+    "start" : 1610525303190,
+    "stop" : 1610525303191,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6677174de4d7ae3f",
+  "name" : "Авторизация с отменой второго алерта",
+  "time" : {
+    "start" : 1610525303138,
+    "stop" : 1610525303138,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
